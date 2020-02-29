@@ -1,0 +1,753 @@
+@import url(//fonts.googleapis.com/css?family=Slabo+13px);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  /*  font-family: 'Slabo 13px', serif; */
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #fff;
+  color: #333;
+}
+@media screen and (max-width: 1040px) {
+  body {
+    margin: 0 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 13px;
+    margin: 0 20px;
+  }
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 1.2em 0 0 0;
+  font-weight: normal;
+  display: block;
+}
+@media screen and (max-width: 620px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #960d20;
+  -webkit-transition: border .25s linear;
+  -moz-transition: border .25s linear;
+  -ms-transition: border .25s linear;
+  transition: border .25s linear;
+  outline: none;
+}
+
+a:hover {
+/*  border-bottom: 1px solid #bf0222; */
+  border-bottom: 1px solid #960d20;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* This bit controls the transition from full-width
+to single centered column. I think it looks better when
+you don't have an abrubt narrowing when the window actually
+gets wider */
+header, footer, section {
+  width: 700px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 725px) {
+  header, footer, section {
+    width: 100%;
+  }
+}
+
+.pullquote-right:before,
+.pullquote-left:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+  /* Content */
+  content: attr(data-pullquote);
+  /* Pull out to the right, modular scale based margins. */
+  float: right;
+  width: 45%;
+  margin: .5em 0 1em 1.5em;
+  position: relative;
+  top: 7px;
+  font-size: 1.4em;
+  line-height: 1.45em;
+}
+
+.pullquote-left:before {
+  /* Make left pullquotes align properly. */
+  float: left;
+  margin: .5em 1.5em 1em 0;
+}
+
+header {
+  height:30px;
+  padding:30px 0;
+  margin-bottom:100px;
+  text-align:center;
+  line-height:30px
+}
+
+/* QUESTION: There were all of these hard-coded 1040 values...
+should that be some width variable? */
+@media screen and (max-width: 1040px) {
+  header {
+    margin-bottom:0;  /* new */
+    height: auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    margin-bottom:0
+  }
+}
+
+
+header a {
+  color: #333;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+header a:hover {
+  color: #960d20;
+  border-bottom: none;
+}
+
+header h1 {
+  margin:15px 0 25px;
+  font-weight:300;
+  font-size:58px
+}
+@media screen and (max-width: 1040px){
+  header h1{
+    float:none
+  }
+}
+
+
+/* This class is used for the subtitle */
+header .tagline{
+  margin-top:15px;
+  font-family:"HelveticaNeue-UltraLight","Helvetica Neue UltraLight","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-weight:300;
+  font-size:32px
+}
+@media screen and (max-width: 1040px){
+  header .tagline{
+    float:none
+  }
+}
+
+
+/* main-nav controls the links in a row just below the title
+However, this is awfully complicated ... it seems like it has
+been adapted from a system that allows nested menus, not just
+this simple row.*/
+
+#main-nav {
+  margin-bottom:0px;
+  float:center;
+  margin-top:15px
+}
+@media screen and (max-width: 1040px) {
+  #main-nav {
+    float: none;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+/* Applies to the individual items in the nav bar*/
+#main-nav > ul > li {
+  margin-left: 50px;
+  display:-moz-inline-stack;
+  display:inline-block;
+  vertical-align:middle;
+  *vertical-align:auto;
+  zoom:1;
+  *display:inline
+}
+#main-nav>ul>li:first-of-type{
+    margin-left:0
+}
+
+@media screen and (max-width: 1040px) {
+  #main-nav > ul > li {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  #main-nav > ul > li:last-of-type {
+    margin-right: 0;
+  }
+}
+#main-nav > ul > li:hover > a {
+  color: #960d20;
+  border-bottom: none;
+}
+#main-nav > ul > li > a {
+  padding: 38px 0;
+  margin-top: -38px;
+}
+#main-nav > ul > li > a:only-child:after {
+  content: "";
+}
+@media screen and (max-width: 1040px) {
+  #main-nav > ul > li > a {
+    padding: 18px 0;
+  }
+}
+#main-nav > ul ul {
+  position: absolute;
+  top: 60px;
+  left: -15px;
+  z-index: 10;
+  white-space: nowrap;
+  background: #ddd;
+  border: 1px solid #ccc;
+  list-style: none;
+  display: none;
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+}
+@media screen and (max-width: 1040px) {
+  #main-nav > ul ul {
+    top: 40px;
+  }
+}
+#main-nav > ul ul ul {
+  -moz-border-radius: 0 5px 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 5px 5px 5px;
+
+}
+#main-nav > ul ul li {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+#main-nav > ul ul li:hover {
+  background: #d5d5d5;
+}
+#main-nav > ul ul li:first-of-type {
+  border-top: none;
+}
+#main-nav > ul ul li:first-of-type ul {
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+}
+#main-nav > ul ul li:last-of-type {
+  border-bottom: none;
+}
+#main-nav > ul ul li > a {
+  display: block;
+  padding: 5px 15px;
+}
+#main-nav > ul ul li > a:hover {
+  color: #333;
+}
+#main-nav > ul ul li > a:only-child:after {
+  content: "";
+}
+#main-nav > ul ul ul {
+  top: 0;
+  left: 100%;
+}
+#main-nav > ul li {
+  position: relative;
+}
+#main-nav > ul li:hover > ul {
+  display: block;
+}
+#main-nav select {
+  display: none;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  #main-nav select {
+    display: block;
+  }
+}
+
+/* leaving out a whole lot of mobile-nav stuff from leanpress */
+/* This all has to do with pagination ... I'm ignoring for now.*/
+#pagenavi {
+  padding: 20px 0;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+/* leanpress version*/
+/*
+
+#pagenavi{
+    padding:20px 0;
+    height:20px;
+    line-height:20px;
+    position:relative
+}
+
+#pagenavi .prev,#pagenavi .next{
+position:absolute}
+#pagenavi .prev{
+left:0}
+#pagenavi .next{
+right:0}
+#pagenavi .center{
+text-align:center;
+width:100%;
+display:block}
+@media screen and (max-width: 400px){
+#pagenavi .center{
+display:none}
+}
+
+*/
+
+article {
+  padding-top:40px;
+  /*padding: 0 0 60px 0;*/
+  position: relative;
+}
+article h2.title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+  margin-left: 0px;
+  text-align: left;
+  border-bottom: 0px;
+  /* If I wanted a line below the title, this would add it */
+/*  border-bottom: 1px solid #ddd; */
+}
+article h2.title a {
+  color: #333;
+}
+article h2.title a:hover {
+  color: #960d20;
+  border-bottom: 0px;
+}
+
+article h2.title a.unpublished {
+  color: #7a1e99
+}
+
+@media screen and (max-width: 620px) {
+  article h2.title {
+    font-size: 18px;
+  }
+}
+
+/* I think that this highlights visited links - wasn't there in leanpress */
+/*
+article .entry-content a:link, article .entry-content a:visited {
+  border-bottom: 1px solid rgba(191, 2, 34, 0);
+}
+*/
+
+
+article header{
+margin-bottom:1.5em}
+
+article .entry-content p,
+article .entry-content blockquote,
+article .entry-content ul,
+article .entry-content ol,
+article .entry-content dl,
+article .entry-content table,
+article .entry-content iframe,
+article .entry-content h1,
+article .entry-content h2,
+article .entry-content h3,
+article .entry-content h4,
+article .entry-content h5,
+article .entry-content h6,
+article .entry-content .video-container{
+    margin-top:1.5em;
+    margin-bottom:1.5em
+}
+
+article .entry-content {
+  line-height: 1.5;
+  text-align: justify;
+}
+article .entry-content a:hover {
+  text-decoration: none;
+}
+
+article .entry-content ul,
+article .entry-content ol,
+article .entry-content dl {
+  margin-left: 20px;
+}
+article .entry-content ul ul,
+article .entry-content ul ol,
+article .entry-content ul dl,
+article .entry-content ol ul,
+article .entry-content ol ol,
+article .entry-content ol dl,
+article .entry-content dl ul,
+article .entry-content dl ol,
+article .entry-content dl dl {
+  margin-top: 0;
+}
+
+article .entry-content strong {
+  font-weight: bold;
+}
+article .entry-content em {
+  font-style: italic;
+}
+article .entry-content p {
+  margin-top: 10px;
+}
+article .entry-content h2 {
+  font-weight: 300;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+article .entry-content h2:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+article .entry-content img,
+article .entry-content video {
+  max-width: 100%;
+  height: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+  border-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* Trying to get image alt-text to show up ...
+*/
+img {
+  color: #fff
+}
+
+
+/* LEL Oct 22, 2019.
+ * Trying to get images to center, as suggested in
+ * https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
+ */
+article img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* added so I can rotate images when inserting
+in markdown using html. see:
+http://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html?lq=1
+*/
+/*
+article .entry-content img .rotate90 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+*/
+
+
+article .entry-content blockquote {
+  background: #ddd;
+  border-left: 5px solid #ccc;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+article .entry-content blockquote > p:first-of-type {
+  margin-top: 0;
+}
+article .entry-content iframe {
+  border: none;
+}
+article .entry-content table {
+  background: #ddd;
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  margin-top: 10px;
+}
+article .entry-content table th {
+  background: #ccc;
+  padding: 0 15px;
+}
+article .entry-content table td {
+  text-align: center;
+}
+article .entry-content table tr:nth-of-type(2n) {
+  background: #d5d5d5;
+}
+article .entry-content .caption {
+  display: block;
+  font-size: 0.9em;
+  color: #333;
+  padding-left: 25px;
+  position: relative;
+}
+/* Added 22 Oct 2019 by LEL
+ * Trying to make a smaller "acknowledgements" section...
+ */
+article .thanks {
+    font-size: 0.85em;
+}
+
+article .entry-content .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+article .entry-content .video-container iframe, article .entry-content .video-container object, article .entry-content .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.post .meta {
+/*
+  margin-top: 10px;
+  line-height: 2;
+*/
+  font-size: 0.9em;
+  color: #333;
+}
+@media screen and (max-width: 620px) {
+  .post .meta {
+/*    margin-top: 15px;
+    position: static;*/
+    width: auto;
+  }
+}
+.post .meta a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: border .25s linear;
+  -moz-transition: border .25s linear;
+  -ms-transition: border .25s linear;
+  transition: border .25s linear;
+  outline: none;
+}
+.post .meta a:link,
+.post .meta a:visited {
+    border-bottom: 1px solid rgba(191, 2, 34, 0);
+    color: #960d20
+
+}
+.post .meta a:hover {
+  border-bottom: 1px solid #960d20;
+}
+.post .meta .date,
+.post .meta .tags,
+.post .meta .category {
+  padding-left: 30px;
+  line-height: 1.8em;
+  display: inline;
+}
+.post .meta .date,
+.post .meta .tags,
+.post .meta .comments,
+.post .meta .category{
+  display:-moz-inline-stack;
+  display:inline-block;
+  vertical-align:middle;
+  *vertical-align:auto;
+  zoom:1;
+  *display:inline;
+  margin-right:30px
+}
+
+.post .meta .date {
+    text-align: left;
+    vertical-align: left;
+}
+
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+article code, article pre {
+  background: #ddd;
+  border: 1px solid #ccc;
+  font-family: monospace;
+}
+
+/****** end of equiv section  *****/
+
+article code {
+  color: #960d20;
+  font-size: 0.9em;
+  padding: 1px 3px;
+  margin: 0 3px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+article pre {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-top: 10px;
+  padding: 5px 15px;
+  overflow-x: auto;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+article pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+
+sup, sub {
+  padding: 0 0.2em;
+  display: inline;
+  font-size: 80%;
+}
+
+
+article .footnote,
+article .simple-footnotes {
+  font-size: 80%;
+  margin-top: 10px;
+}
+article .simple-footnotes{
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+
+.footnotes {
+  font-size: 65%;
+  margin-top: 10px;
+}
+.footnotes hr {
+  border-width: 1px 0px 0px;
+  border-style: dotted;
+  width: 30%;
+}
+
+body div.alert-info {
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  color: #3A87AD;
+  padding: 8px 35px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  border-radius: 4px 4px 4px 4px;
+  margin: 20px 0px;
+}
+
+body div.alert-info strong {
+  color: #3A87AD;
+}
+
+/*
+article .entry-content ol.simple-footnotes {
+  font-size: 12px;
+  margin-top: 10px;
+
+  margin-left: 0px;
+  padding-left: 20px;
+  border-top: 1px solid #ddd;
+}
+*/
+
+
+/* doesn't show up in leanpress - I think it treats the index differently */
+article.index {
+  padding-bottom: 25px;
+}
+@media screen and (max-width: 620px) {
+  article {
+    padding-bottom: 15px;
+  }
+  article.index {
+    padding-bottom: 10px;
+  }
+}
+
+.read-more {
+    margin: 10px 0px;
+    color: #960d20
+}
+article.index .meta {
+  margin-bottom: 5px;
+}
+article.index h2.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}

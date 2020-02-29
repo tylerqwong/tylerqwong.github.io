@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laura Lindzey</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2016-02-27T00:00:00-06:00</updated><entry><title>Touring UTIG's Airplane</title><link href="/blog/2016/02/27/touring-utigs-airplane/" rel="alternate"></link><updated>2016-02-27T00:00:00-06:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2016-02-27:blog/2016/02/27/touring-utigs-airplane/</id><summary type="html">&lt;p&gt;&lt;img src="/images/platform_tour/erebus_mkb.jpg" alt="Picture of JKB taxiing in front of Erebus" title="Picture of JKB taxiing in front of Erebus"&gt;&lt;/p&gt;
+&lt;p&gt;Don Blankenship's research group at UTIG has been collecting geophysical data in Antarctica for decades.
+Each season, we hire &lt;a href="http://www.borekair.com/"&gt;Kenn Borek Air&lt;/a&gt;&lt;sup id="sf-touring-utigs-airplane-1-back"&gt;&lt;a href="#sf-touring-utigs-airplane-1" title=" KBA operates most of the non-military planes in Antarctica. " class="simple-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; to operate one of their modified airplanes, stuff it full of sensors, and fly around Antarctica.
+This post attempts to give a tour of the hardware involved, with an emphasis on its scientific purpose and a detour through Antarctic logistics.&lt;/p&gt;
+
+
+&lt;h4&gt;Why aerogeophysics?&lt;/h4&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/AntarcticaUSA.jpg" alt="credit: NASA" title="credit: NASA"&gt;
+&lt;!--  captions fail with slashes. Argh. "credit: http://www.nasa.gov/mission_pages/icebridge/multimedia/fall11/antarctica-US.html" %} --&gt;&lt;/p&gt;
+&lt;p&gt;Antarctica is huge and hard to access.
+While some types of data require in situ measurements (and are collected by overland traverses or teams dropped off by helicopter), the most efficient way to obtain basic information about the thickness of the ice and properties of the rock underneath it is to mount sensors in an airplane and start flying.
+&lt;!-- Our group uses lasers to measure how quickly the ice surface elevation is changing, radar to measure its thickness, and gravity &amp; magnetics to characterize the density and type of rock underneath the ice. --&gt;
+This type of mapping is inherently 1D in nature - we obtain very dense observations along a flight line, then interpolate tens of kilometers between the lines to create a map.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/bedmap_distances.jpg" alt="Bedmap2 data coverage - black lines are from ice-penetrating radar. Image from Fretwell et al. 2013" title="Bedmap2 data coverage - black lines are from ice-penetrating radar. Image from Fretwell et al. 2013" width="315"&gt;
+&lt;img src="/images/platform_tour/all_UTIG_0.png" alt="UTIG radar coverage" title="UTIG radar coverage" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;The left plot above shows everwhere that BEDMAP2&lt;sup id="sf-touring-utigs-airplane-2-back"&gt;&lt;a href="#sf-touring-utigs-airplane-2" title=" BEDMAP2 was an effort to integrate all the available data into maps of Antarctica's bedrock and ice thickness: Fretwell, P., Pritchard, H. D., Vaughan, D. G., Bamber, J. L., Barrand, N. E., Bell, R., Bianchi, C., Bingham, R. G., Blankenship, D. D., Casassa, G., and Others (2013). Bedmap2: improved ice bed, surface and thickness datasets for Antarctica. The Cryosphere, 7(1):375–393. " class="simple-footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;
+has data.
+Almost all of the black lines represent a single flight line.
+The densest (apparently solid) regions of black lines correspond to grids with 5km line spacing.
+The right plot shows where my research group has flown over the past few decades.
+Until this season, there were places where the closest measurement was hundreds of kilometers away.&lt;sup id="sf-touring-utigs-airplane-3-back"&gt;&lt;a href="#sf-touring-utigs-airplane-3" title=" There may still be such places, since I haven't seen an updated map, but I was involved in a project that filled in the biggest hole. " class="simple-footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4&gt;The airplane (and logistics)&lt;/h4&gt;
+&lt;p&gt;My research group currently uses WWII-era DC-3s,&lt;sup id="sf-touring-utigs-airplane-4-back"&gt;&lt;a href="#sf-touring-utigs-airplane-4" title=" I'll interchangeably refer to these airplanes as DC-3s and Baslers. DC-3 was the original designation; Basler is the name of a company that takes these old airplanes and entirely refurbishes them for Arctic/Antarctic work. " class="simple-footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;
+like the one in the picture at the start of this post.&lt;sup id="sf-touring-utigs-airplane-5-back"&gt;&lt;a href="#sf-touring-utigs-airplane-5" title=" JKB, the airplane shown in many off these photos, was used in WWII. " class="simple-footnote"&gt;5&lt;/a&gt;&lt;/sup&gt;
+We've used these since 2007. All through the 1990's and early 2000's, they used a Twin Otter (below).
+Conceptually, not much has changed - while we're continually upgrading the instruments, the same types of data have been being collected for over 20 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/sjb.jpg" alt="Twin Otter SJB; Credit: Matt Fields-Johnson" title="Twin Otter SJB; Credit: Matt Fields-Johnson" width="500"&gt;&lt;/p&gt;
+&lt;p&gt;Each season is slightly different, but a common pattern is to ship everything to a larger coastal station (McMurdo or Casey), do our setup and test flights from there, then fly to another base or field camp or series of bases closer to where we want to collect data, spend anywhere from a few days to a month at each spot, then head back to the bigger station for deconfiguration and getting home.
+Cargo usually travels to Antarctica on an airplane and returns on an icebreaker,&lt;sup id="sf-touring-utigs-airplane-6-back"&gt;&lt;a href="#sf-touring-utigs-airplane-6" title=" The boat is obviously preferable and cheaper, but our field seasons typically begin in October or November when there's still too much sea ice for even an icebreaker to make it to the stations. " class="simple-footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;
+while humans usually travel both ways in a C-17 or LC-130&lt;sup id="sf-touring-utigs-airplane-7-back"&gt;&lt;a href="#sf-touring-utigs-airplane-7" title=" I thought the C-17 was uncomfortable until I got to ride in the LC-130. Get friendly with the people across from you! If you're really lucky, you might get a spot in the Australian Airbus, where you're served real food and have a whole row of seats to yourself. At least on the military planes you can visit the cockpit, but if you want a view from the cabin, you'll have to wait your turn at one of about 4 tiny windows. " class="simple-footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;
+operated by the Air National Guard flying to and from Christchurch, New Zealand.&lt;/p&gt;
+&lt;p&gt;I may have mentioned stuffing the airplane full:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/transit_racks1-4.jpg" alt="Transit flight, rack1-3" title="Transit flight, rack1-3" width="340"&gt;
+&lt;img src="/images/platform_tour/rack4_pcl.jpg" alt="Transit flight, rack 4 and PCL" title="Transit flight, rack 4 and PCL" width="340"&gt;&lt;/p&gt;
+&lt;p&gt;The above images are from transit flights, when we had way more people and baggage than for normal survey operations.
+The right photo was taken looking from the center of the plane towards the back.
+In it, we can see part of rack 4 (used for HF radar electronics), the photon counting lidar with its control laptop&lt;sup id="sf-touring-utigs-airplane-8-back"&gt;&lt;a href="#sf-touring-utigs-airplane-8" title=" Sadly, it would appear that this temperamental instrument is only collecting noise in this image. " class="simple-footnote"&gt;8&lt;/a&gt;&lt;/sup&gt;
+on top, and the curtain that separates the heated part of the plane from the cargo doors.&lt;/p&gt;
+&lt;p&gt;From a similar location but looking forward (and taken on a non-transit flight!) we get a nice look at the racks in the front half of the airplane:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/racks1-3.jpg" alt="racks 1-3, looking forwards"&gt;&lt;/p&gt;
+&lt;p&gt;Starting at the cockpit, we have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rack 1 - operator interface, VHF amplifier&lt;/li&gt;
+&lt;li&gt;rack 2 - VHF radar electronics&lt;/li&gt;
+&lt;li&gt;black box - gravimeter&lt;/li&gt;
+&lt;li&gt;rack 3 - gravimeter electronics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It takes an absolute minimum of 2 days to install all of this, several more for test flights to make sure everything works, and a very full day at the end of the season to strip it all out and start packing to go home.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/kevin_and_john.jpg" alt="Kevin and John, our pilots last season" title="Kevin and John, our pilots last season"&gt;&lt;/p&gt;
+&lt;p&gt;Any Kenn Borek airplane comes with 3 people dedicated to its operation: a mechanic (who is usually waiting back at the station), a pilot, and a copilot.
+Here are Kevin (left) and John (right), our pilots last season.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/refueling_dmc.jpg" alt="Refueling at Dome C" title="Refueling at Dome C"&gt;&lt;/p&gt;
+&lt;p&gt;We find that the DC-3 has the best tradeoff for fuel burned per line-km of data collected.&lt;sup id="sf-touring-utigs-airplane-9-back"&gt;&lt;a href="#sf-touring-utigs-airplane-9" title="     In addition to the DC-3s and Twin Otters, other groups have used LC-130s and P-3s to collect radar sounding data. They're bigger, fly faster, and burn more fuel.     " class="simple-footnote"&gt;9&lt;/a&gt;&lt;/sup&gt;
+This airplane burns ~1000&lt;sup id="sf-touring-utigs-airplane-10-back"&gt;&lt;a href="#sf-touring-utigs-airplane-10" title=" This varies dramatically with elevation; we get significantly better than this flying over the Antarctic Plateau, and worse around the coast. " class="simple-footnote"&gt;10&lt;/a&gt;&lt;/sup&gt;
+pounds per hour,&lt;sup id="sf-touring-utigs-airplane-11-back"&gt;&lt;a href="#sf-touring-utigs-airplane-11" title="     If you're at a coastal station, fuel is brought in on an ice breaker, and is less of a constraint. If you're inland, that fuel is either brought in via a traverse (huge logistical operation) or flown in on LC-130s. Last season, at WAIS divide, the United States Antarctic Program used LC-130s to bring us fuel. They burn 3000 pounds of fuel an hour, and each delivery run from McMurdo provides enough fuel for ~3 of our survey flights.     " class="simple-footnote"&gt;11&lt;/a&gt;&lt;/sup&gt;
+travels at a nominal cruising speed of 160 knots, and has an endurance of ~6.5 hours in survey configuration.&lt;sup id="sf-touring-utigs-airplane-12-back"&gt;&lt;a href="#sf-touring-utigs-airplane-12" title="     Endurance is primarily a function of how much fuel can be carried. The upper limit is neither the volume of the tanks nor the maximum weight that can get airborne - it's the maximum weight that the airplane can safely land with, if an emergency landing were required just after takeoff. Nobody is going to be happy if you dump fuel over Antarctica. This means that each additional passenger costs ~15 minutes of extremely expensive survey time, and has been known to be a factor in deciding which additional instruments to install. Do you want the full suite of available instruments, or do you want an additional 30 minutes of survey time in order to reach that geologically interesting hole in the map?     " class="simple-footnote"&gt;12&lt;/a&gt;&lt;/sup&gt;
+So, for every day of good weather, we can get up to 2000 line-km of data.
+If the weather has been bad and the pilots have extra hours available, we might do two 5-hour flights rather than a single 6.5 hour one, but that's the maximum for a single flight crew.&lt;sup id="sf-touring-utigs-airplane-13-back"&gt;&lt;a href="#sf-touring-utigs-airplane-13" title="     Pilots have legally- and contractually-mandated maximum duty day lengths, days off, maximum hours in the air per day, and rolling weekly/monthly flight hour maximums.     " class="simple-footnote"&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/flying_weather.jpg" alt="not flying weather" title="not flying weather"&gt;&lt;/p&gt;
+&lt;p&gt;Antarctic weather is usually the biggest challenge to successfully flying all of the survey lines that we've planned.
+At a rough estimate, we're only able to fly 1/2 of the days when the airplane is available.
+The biggest worry here is the ability to land.
+When you're using snow for a runway, it doesn't take much in the way of clouds or fog to ruin all contrast.
+Add a few more clouds or some snow falling from the sky as in the picture above, and it can be hard to find the horizon when you're just walking around.
+Clouds are also a problem because of the potential for the wings - or worse, the radar antennas - to ice up.
+Where we were operating last season, there were no good alternative runways, which meant that we were only able to fly when the weather was forecast to be pristine for the next ~8 hours.&lt;sup id="sf-touring-utigs-airplane-14-back"&gt;&lt;a href="#sf-touring-utigs-airplane-14" title=" This was … tough. The field camp was at an ice divide, meaning that weather systems could blow in from any of three directions, with very hard-to-predict timing. " class="simple-footnote"&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Once we have everything installed and are airborne, what data are we collecting?&lt;/p&gt;
+&lt;h4&gt;VHF Radar&lt;/h4&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/installing_antenna.jpg" alt="Installing VHF antennas on MKB" title="Installing VHF antennas on MKB"&gt;&lt;/p&gt;
+&lt;p&gt;The most visible external modifications that we make to the airplane are the antennas installed under each wing for the VHF radar.
+While the receiver electronics have changed multiple times since then, these antennas are the same ones that were used back in the 1970's for some of the first ice-penetrating radar surveys of Antarctica.&lt;sup id="sf-touring-utigs-airplane-15-back"&gt;&lt;a href="#sf-touring-utigs-airplane-15" title=" That was before GPS, so the positioning was only good to ~5km, and the radar data was recorded photographically, not digitally! The technology didn't exist to digitize the received signals and write them to disk like we do now. " class="simple-footnote"&gt;15&lt;/a&gt;&lt;/sup&gt;
+Both antennas are used for transmitting the 8kW signal and for receiving the much weaker echoes.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/ASB.JKB1a.R10Wa_full.png" alt="" example="" asb.jkb1a.r10wa""="" transect:="" title=""&gt;&lt;/p&gt;
+&lt;p&gt;We use this 60MHz radar to get a 2D cross-section of the ice.
+An example of the data is shown above - you can clearly see the ice surface, layers within the ice, and mountains underneath.
+I've previously talked about &lt;a href="/blog/2015/07/27/a-brief-introduction-to-ice-penetrating-radar/"&gt;interpreting the radargrams&lt;/a&gt;, so I won't go further into it here.&lt;/p&gt;
+&lt;p&gt;The most basic science done with data from this sensor is determining the topography underneath kilometers of ice.
+Among other things, this is important for calculating how much potential sea level change is locked up in Antarctica, and how stable the ice sheet is likely to be.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/Fretwell2013BedmapImage.png" alt="Bedmap2 image from Fretwell et al. 2013" title="Bedmap2 image from Fretwell et al. 2013" width="610"&gt;&lt;/p&gt;
+&lt;p&gt;We are proud of having collected a significant portion of the line-km that were used to create Bedmap2.&lt;sup id="sf-touring-utigs-airplane-16-back"&gt;&lt;a href="#sf-touring-utigs-airplane-16" title=" Fretwell, P., Pritchard, H. D., Vaughan, D. G., Bamber, J. L., Barrand, N. E., Bell, R., Bianchi, C., Bingham, R. G., Blankenship, D. D., Casassa, G., and Others (2013). Bedmap2: improved ice bed, surface and thickness datasets for Antarctica. The Cryosphere, 7(1):375–393. " class="simple-footnote"&gt;16&lt;/a&gt;&lt;/sup&gt;
+Bedmap2&lt;sup id="sf-touring-utigs-airplane-17-back"&gt;&lt;a href="#sf-touring-utigs-airplane-17" title=" NASA has produced some very fun visualizations of the improvement bewteen BEDMAP and BEDMAP2, as well as the ice surface / bed topography. We collected some of the data as a part of NASA's Operation Ice Bridge (mostly in East Antarctica). link " class="simple-footnote"&gt;17&lt;/a&gt;&lt;/sup&gt; is the most recent compilation of Antarctic ice-depth and sub-ice topography data.&lt;sup id="sf-touring-utigs-airplane-18-back"&gt;&lt;a href="#sf-touring-utigs-airplane-18" title=" Of course, it was obsolete as soon as it came out, as everybody continues to collect more data. " class="simple-footnote"&gt;18&lt;/a&gt;&lt;/sup&gt;
+The image above shows the bed elevation - note how much of the continent is actually lower than sea level!&lt;/p&gt;
+&lt;!--
+
+{% img /images/platform_tour/Young2011BedElevations.png 500 "ASB bed elevations from Young et al. 2011" "ASB bed elevations from Young et al. 2011" %}
+{% img /images/platform_tour/Young2011Coastlines.png 175 "Coastline interpretation from Young et al. 2011" "Coastline interpretation from Young et al. 2011" %}
+
+This type of data has also been used to infer that East Antarctica has dramatically fluctuated in size in the past.[ref]
+Young, D. A., Wright, A. P., Roberts, J. L., Warner, R. C., Young, N. W., Greenbaum, J. S., Schroeder, D. M., Holt, J. W., Sugden, D. E., Blankenship, D. D., and Others (2011). A dynamic early East Antarctic Ice Sheet suggested by ice-covered fjord landscapes. Nature, 474(7349):72–75.
+[/ref]
+This fluctuation is particularly interesting because East Antarctica contains the majority of the ice in Antarctica,[ref]
+According to Fretwell2013, EAIS contains 53.3m of sea level rise, of which 19.2 is ice grounded below sea level. WAIS has 4.3 total, of which 3.4 is grounded below sea level.
+[/ref] and had been thought to be more stable than West Antarctica.
+The left image above shows the topography in the Aurora Subglacial Basin, and the set of differently-oriented U-shaped valleys was taken as evidence of different ice sheet configurations, with different ice flow directions and coastline configurations.
+The hypothesized coastlines are shown in the image above right.
+
+--&gt;
+
+&lt;h4&gt;HF radar&lt;/h4&gt;
+&lt;p&gt;In addition to the 60MHz VHF radar, we also field a 2MHz HF radar.
+Rather than antennas under the wings, we unspool a &lt;span class="math"&gt;\(\sim\)&lt;/span&gt;60m long wire antenna through a port in the floor.
+My attempts to get a clear picture of this antenna deployed while in flight have failed, so the best I have is one of Jamin preparing to reel the antenna back in.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/hf_interior.jpg" the="" jsg="" title="" of="" pic="" in""="" alt="" reeling="" antenna=""&gt;&lt;/p&gt;
+&lt;p&gt;The main factors determining how deep of a bed we can detect is the radar signal's attenuation as it passes through the ice.
+Both warmer ice and saltier ice lead to higher losses, as does a rough surface that causes scattering.
+In some conditions, energy at 2MHz penetrates better than energy at 60MHz, at the cost of poorer vertical resultion due to the much longer wavelength.&lt;/p&gt;
+&lt;p&gt;We primarily fly this dual-frequency setup as a testbed for the REASON instrument that will be on the next mission to Europa.&lt;/p&gt;
+&lt;h4&gt;Gravity&lt;/h4&gt;
+&lt;p&gt;I'm continually amazed that we're able to measure accelarations accurately enough to infer underwater topography based on local changes in gravitational acceleration.
+Stationary instruments on the ground can measure to a precision of ~5uGal.
+For context, the gravity field changes by ~300uGal/m as you get farther from the center of the earth, and 1G = 9.8m/s2 = 980Gal.
+From a moving platform with turbulance, we'll get precision on the order of a few mGal.
+This requires integrating many measurements in order to get a usable signal to noise ratio, which means that we're only able to detect features on the scale of ~5km.&lt;sup id="sf-touring-utigs-airplane-19-back"&gt;&lt;a href="#sf-touring-utigs-airplane-19" title=" For a fixed sampling rate, the slower you fly the better your data will be. We're excited about the potential for mounting gravimeters on helicopters to get even higher-resolution data! Lower is also better, because you're closer to the source. " class="simple-footnote"&gt;19&lt;/a&gt;&lt;/sup&gt;
+The main complication when interpreting gravity data is that you're actually measuring differences in density.
+If you assume less-dense sedimentary rocks underneath the water, you're going to wind up balancing them out with a shallower water column, while if you assume denser rocks, you'll infer deeper water.&lt;/p&gt;
+&lt;p&gt;Jamin Greenbaum recently published a paper&lt;sup id="sf-touring-utigs-airplane-20-back"&gt;&lt;a href="#sf-touring-utigs-airplane-20" title=" Greenbaum, J. S., Blankenship, D. D., Young, D. A., Richter, T. G., Aitken, A. R. A., Legresy, B., Schroeder, D. M., Roberts, J. L., Warner, R. C., van Ommen, T. D., and Siegert, M. J. (2015). Increased Ocean Access to Totten Glacier, East Antarctica. Nature Geos. " class="simple-footnote"&gt;20&lt;/a&gt;&lt;/sup&gt;
+improving the estimates of the cavity shape underneath the Totten Ice Shelf.
+His inferred geometry is shown below on the left.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/Greenbaum2015.jpg" alt="Totten bathymetry from Greenbaum et al. 2015" title="Totten bathymetry from Greenbaum et al. 2015"&gt;&lt;/p&gt;
+&lt;p&gt;This was an important result because he showed that the ocean is deep enough that warm deep water is able to enter the cavity, which could explain why the glacier's surface is lowering so quickly.
+It was also a significant improvement over the previous bathymetry - in the figure above right, you can see the old best-guess bathymetry as a dashed line.&lt;/p&gt;
+&lt;h4&gt;Magnetics&lt;/h4&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/mag_boom.jpg" alt="Magnetometer boom" title="Magnetometer boom, getting that instrument as far away as possible from all the metal on the plane!"&gt;&lt;/p&gt;
+&lt;p&gt;We have two magnetometers on the plane.
+One is mounted inside near the cameras and and measures the 3 dimensional magnetic field vector.
+A much more precise one measuring only the magnitude is stuck way at the end of the tail boom, shown above.
+The idea behind this arrangement is that we want to understand how the airplane's orientation and interaction with the earth's magnetic field affects the measured field (you can see turns very clearly in the interior data), but we want the most accurate reading possible, taken as far away as possible from all the metal in the plane.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/base_mag.jpg" alt="basemag" title="Magnetometer setup back at camp" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;We also record the magnetic field at a base station.
+The above image shows the magnetometer housing and its solar charger.
+Data from this is used to determine when to fly (it gets noisier at certain times of day) and then compared with the in-flight data to determine an anomaly.
+Any signal that's different between the base and the airplane can be assumed to be from local topography, not the earth's temporally varying magnetic field.&lt;/p&gt;
+&lt;p&gt;Igneous rocks tend to be magnetic, with their internal field aligned with what the earth's field was when the rock formed, while ice and sedimentary rocks are not magnetic.
+This means that we can figure out what type of rocks are underneath the ice based on the magnetic signal that we observe!
+This process has been used to infer the presence of shallow volcanoes underneath the West Antarctic Ice Sheet.
+This matches very well with other observations indicating that the ice sheet is warmer and melting more than you'd expect for somewhere with globally average geothermal flux.&lt;/p&gt;
+&lt;p&gt;Determining the depth of the magnetic rocks can also be useful for interpreting gravity data.
+If something's magnetic, you know that it's denser than sediments would be, and anything that helps you constrain the density model will improve the gravity inversion.
+Depth can be inferred from the signal's gradient - the deeper a feature is, the smoother the resulting signal will be.&lt;/p&gt;
+&lt;h4&gt;Cameras&lt;/h4&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/cam_las_windows.jpg" alt="Image of bottom of airplane, with las and cam labeled. If can see it, also label where HF antenna comes out" title="Image of bottom of airplane, with las and cam labeled. If can see it, also label where HF antenna comes out"&gt;&lt;/p&gt;
+&lt;p&gt;We don't use camera data directly to answer any science questions,&lt;sup id="sf-touring-utigs-airplane-21-back"&gt;&lt;a href="#sf-touring-utigs-airplane-21" title=" We have recently learned that whale biologists are seriously interested in our data any time we fly over open water (which we do with some frequency for gravity data). It turns out that they've been fielding airplanes just to get the same type of imagery that we collect as a routine part of our operations. " class="simple-footnote"&gt;21&lt;/a&gt;&lt;/sup&gt; but the pictures are useful for providing context for other data.
+This has included trying to figure out why we were missing laser data: Was it cloudy out? Were we in a heavily crevassed region? Were we over water?
+It has also been used to validate radar-derived surface roughness estimates.
+The below figure is from a paper by Cyril Grima&lt;sup id="sf-touring-utigs-airplane-22-back"&gt;&lt;a href="#sf-touring-utigs-airplane-22" title=" Grima, C., Schroeder, D. M., Blankenship, D. D., and Young, D. A. (2014a). Planetary landing-zone reconnaissance using ice-penetrating radar data: Concept validation in Antarctica. Planetary and Space Science. " class="simple-footnote"&gt;22&lt;/a&gt;&lt;/sup&gt;
+and shows roughness parameters derived from a statistical examination of the returned radar pulse shape.
+The extracted parameters show an excellent qualitative agreement with the imagery.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/Grima2014_roughness1.jpg" alt="Qualitative validation of surface roughness from Grima et al. 2014" title="Qualitative validation of surface roughness from Grima et al. 2014" width="340"&gt;
+&lt;img src="/images/platform_tour/Grima2014_roughness2.jpg" alt="Qualitative validation of surface roughness from Grima et al. 2014" title="Qualitative validation of surface roughness from Grima et al. 2014" width="340"&gt;&lt;/p&gt;
+&lt;h4&gt;Laser altimetry&lt;/h4&gt;
+&lt;p&gt;We use lasers to very accurately measure the surface elevation of the ice sheet.
+Even where it is changing most rapidly, these changes are measured in meters per year, and our goal is to be able to detect changes of 5cm per year.
+From 2003-2009, ICESat collected laser altimetry from space, leading to a detailed map of where elevations are changing across Antarctica and Greenland.&lt;sup id="sf-touring-utigs-airplane-23-back"&gt;&lt;a href="#sf-touring-utigs-airplane-23" title=" Pritchard, H. D., Arthern, R. J., Vaughan, D. G., and Edwards, L. A. (2009). Extensive dynamic thinning on the margins of the Greenland and Antarctic ice sheets. Nature, 461(7266):971– 975. /ref." class="simple-footnote"&gt;23&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/Pritchard2009.jpg" alt="ICESat elevation changes, Pritchard et al. 2009" title="ICESat elevation changes, Pritchard et al. 2009"&gt;&lt;/p&gt;
+&lt;p&gt;However, ICESat failed in 2009, and its replacement has not yet been launched.
+So, a number of groups (including ours) have been reflying ICESat tracks in an effort to extend the temporal record and hopefully connect it to ICESat II.
+Our system, ALAMO&lt;sup id="sf-touring-utigs-airplane-24-back"&gt;&lt;a href="#sf-touring-utigs-airplane-24" title=" Young, D. A., Lindzey, L. E., Blankenship, D. D., Greenbaum, J. S., de Gorordo, A. G., Kempf, S. D., Roberts, J. L., Warner, R. C., van Ommen, T., Siegert, M. J., and le Meur, E. (2014). Land-ice elevation changes from photon counting swath altimetry: First applications over the Antarctic ice sheet. Journal of Glaciology. " class="simple-footnote"&gt;24&lt;/a&gt;&lt;/sup&gt;, includes an off-the-shelf single-beam Riegl altimeter, which is well characterized and used to determine the range to the surface.
+We also have a more temperamental scanning photon counting lidar that is a protopype of what will be on ICESat II.
+Its data points are dense enough to map individual buildings in McMurdo (below), but we mostly use its data to determine the ice's surface slope, which is important when trying to compare two slightly offset repeat flights of the same line.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/platform_tour/mcm_411_375.png" alt="PCL data from Flying over McMurdo" title="PCL data from Flying over McMurdo"&gt;&lt;/p&gt;
+&lt;h4&gt;GPS, IMU&lt;/h4&gt;
+&lt;p&gt;We have 4 GPS antennas mounted outside the plane: at the center, the tail, and on each wing.
+These are used to get absolute position in space.
+The IMUs measure accelations, and give us a very accurate orientation estimate - we have a little MEMs one mounted on rack 2, and a more precise one mounted directly to the PCL.
+After post-processing, we typically know our position to &lt;span class="math"&gt;\(\sim\)&lt;/span&gt;2cm and our orientation to milli-radian accuracy.&lt;/p&gt;
+&lt;p&gt;While we don't use this as science data in and of itself, knowing the airplane's exact position is absolutely crucial for processing the other data.
+For example, the laser altimetry measurements are basically a 600m lever arm, and if we want to know the position of the end of that arm to centimeter accuracy, orientation matters.&lt;/p&gt;
+&lt;h4&gt;Outside Air Temperature, Pressure&lt;/h4&gt;
+&lt;p&gt;This is more metadata for our operation than science data.
+ No major publications result from this, but I did use them to validate a correction for the speed of light in air, which primarily depends on pressure and temperature.
+I was utterly dumbfounded when I realized that the difference in conditions between the coast and inland domes could result in a 10cm bias in the altimetry data!
+We don't consistently collect temperature and pressure data, but we always know our altitude.
+So, I needed to check that an altitude-based approximation to the speed of light would remove any geographical bias in our data.&lt;sup id="sf-touring-utigs-airplane-25-back"&gt;&lt;a href="#sf-touring-utigs-airplane-25" title=" I was impressed by my research group's data management discipline when I was able to dig up and painlessly use 20+ year old data to do this analysis! " class="simple-footnote"&gt;25&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-touring-utigs-airplane-1"&gt;
+KBA operates most of the non-military planes in Antarctica.
+ &lt;a href="#sf-touring-utigs-airplane-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-2"&gt;
+BEDMAP2 was an effort to integrate all the available data into maps of Antarctica's bedrock and ice thickness: Fretwell, P., Pritchard, H. D., Vaughan, D. G., Bamber, J. L., Barrand, N. E., Bell, R., Bianchi, C., Bingham, R. G., Blankenship, D. D., Casassa, G., and Others (2013). Bedmap2: improved ice bed, surface and thickness datasets for Antarctica. The Cryosphere, 7(1):375–393.
+ &lt;a href="#sf-touring-utigs-airplane-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-3"&gt;
+There may still be such places, since I haven't seen an updated map, but I was involved in a project that filled in the biggest hole.
+ &lt;a href="#sf-touring-utigs-airplane-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-4"&gt;
+I'll interchangeably refer to these airplanes as DC-3s and Baslers.
+DC-3 was the original designation; Basler is the name of a company that takes these old airplanes and entirely refurbishes them for Arctic/Antarctic work.
+ &lt;a href="#sf-touring-utigs-airplane-4-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-5"&gt;
+JKB, the airplane shown in many off these photos, was used in WWII.
+ &lt;a href="#sf-touring-utigs-airplane-5-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-6"&gt;
+The boat is obviously preferable and cheaper, but our field seasons typically begin in October or November when there's still too much sea ice for even an icebreaker to make it to the stations.
+ &lt;a href="#sf-touring-utigs-airplane-6-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-7"&gt;
+I thought the C-17 was uncomfortable until I got to ride in the LC-130. Get friendly with the people across from you! If you're really lucky, you might get a spot in the Australian Airbus, where you're served real food and have a whole row of seats to yourself. At least on the military planes you can visit the cockpit, but if you want a view from the cabin, you'll have to wait your turn at one of about 4 tiny windows.
+ &lt;a href="#sf-touring-utigs-airplane-7-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-8"&gt;
+Sadly, it would appear that this temperamental instrument is only collecting noise in this image.
+ &lt;a href="#sf-touring-utigs-airplane-8-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-9"&gt;
+    In addition to the DC-3s and Twin Otters, other groups have used LC-130s and P-3s to collect radar sounding data.
+They're bigger, fly faster, and burn more fuel.
+     &lt;a href="#sf-touring-utigs-airplane-9-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-10"&gt;
+This varies dramatically with elevation; we get significantly better than this flying over the Antarctic Plateau, and worse around the coast.
+ &lt;a href="#sf-touring-utigs-airplane-10-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-11"&gt;
+    If you're at a coastal station, fuel is brought in on an ice breaker, and is less of a constraint.
+If you're inland, that fuel is either brought in via a traverse (huge logistical operation) or flown in on LC-130s.
+Last season, at WAIS divide, the United States Antarctic Program used LC-130s to bring us fuel.
+They burn 3000 pounds of fuel an hour, and each delivery run from McMurdo provides enough fuel for ~3 of our survey flights.
+     &lt;a href="#sf-touring-utigs-airplane-11-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-12"&gt;
+    Endurance is primarily a function of how much fuel can be carried.
+The upper limit is neither the volume of the tanks nor the maximum weight that can get airborne - it's the maximum weight that the airplane can safely land with, if an emergency landing were required just after takeoff.
+Nobody is going to be happy if you dump fuel over Antarctica.
+This means that each additional passenger costs ~15 minutes of extremely expensive survey time, and has been known to be a factor in deciding which additional instruments to install.
+Do you want the full suite of available instruments, or do you want an additional 30 minutes of survey time in order to reach that geologically interesting hole in the map?
+     &lt;a href="#sf-touring-utigs-airplane-12-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-13"&gt;
+    Pilots have legally- and contractually-mandated maximum duty day lengths, days off, maximum hours in the air per day, and rolling weekly/monthly flight hour maximums.
+     &lt;a href="#sf-touring-utigs-airplane-13-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-14"&gt;
+This was … tough.
+The field camp was at an ice divide, meaning that weather systems could blow in from any of three directions, with very hard-to-predict timing.
+ &lt;a href="#sf-touring-utigs-airplane-14-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-15"&gt;
+That was before GPS, so the positioning was only good to ~5km, and the radar data was recorded photographically, not digitally! The technology didn't exist to digitize the received signals and write them to disk like we do now.
+ &lt;a href="#sf-touring-utigs-airplane-15-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-16"&gt;
+Fretwell, P., Pritchard, H. D., Vaughan, D. G., Bamber, J. L., Barrand, N. E., Bell, R., Bianchi, C., Bingham, R. G., Blankenship, D. D., Casassa, G., and Others (2013). Bedmap2: improved ice bed, surface and thickness datasets for Antarctica. The Cryosphere, 7(1):375–393.
+ &lt;a href="#sf-touring-utigs-airplane-16-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-17"&gt;
+NASA has produced some very fun visualizations of the improvement bewteen BEDMAP and BEDMAP2, as well as the ice surface / bed topography.
+We collected some of the data as a part of NASA's Operation Ice Bridge (mostly in East Antarctica).
+&lt;a href="http://www.nasa.gov/topics/earth/features/antarctic-map.html"&gt;link&lt;/a&gt;
+ &lt;a href="#sf-touring-utigs-airplane-17-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-18"&gt;
+Of course, it was obsolete as soon as it came out, as everybody continues to collect more data.
+ &lt;a href="#sf-touring-utigs-airplane-18-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-19"&gt;
+For a fixed sampling rate, the slower you fly the better your data will be. We're excited about the potential for mounting gravimeters on helicopters to get even higher-resolution data! Lower is also better, because you're closer to the source.
+ &lt;a href="#sf-touring-utigs-airplane-19-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-20"&gt;
+Greenbaum, J. S., Blankenship, D. D., Young, D. A., Richter, T. G., Aitken, A. R. A., Legresy, B., Schroeder, D. M., Roberts, J. L., Warner, R. C., van Ommen, T. D., and Siegert, M. J. (2015). Increased Ocean Access to Totten Glacier, East Antarctica. Nature Geos.
+ &lt;a href="#sf-touring-utigs-airplane-20-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-21"&gt;
+We have recently learned that whale biologists are seriously interested in our data any time we fly over open water (which we do with some frequency for gravity data).
+It turns out that they've been fielding airplanes &lt;em&gt;just&lt;/em&gt; to get the same type of imagery that we collect as a routine part of our operations.
+ &lt;a href="#sf-touring-utigs-airplane-21-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-22"&gt;
+Grima, C., Schroeder, D. M., Blankenship, D. D., and Young, D. A. (2014a). Planetary landing-zone reconnaissance using ice-penetrating radar data: Concept validation in Antarctica. Planetary and Space Science.
+ &lt;a href="#sf-touring-utigs-airplane-22-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-23"&gt;
+Pritchard, H. D., Arthern, R. J., Vaughan, D. G., and Edwards, L. A. (2009). Extensive dynamic thinning on the margins of the Greenland and Antarctic ice sheets. Nature, 461(7266):971– 975.
+&lt;a href="below"&gt;/ref&lt;/a&gt;. &lt;a href="#sf-touring-utigs-airplane-23-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-24"&gt;
+Young, D. A., Lindzey, L. E., Blankenship, D. D., Greenbaum, J. S., de Gorordo, A. G., Kempf, S. D., Roberts, J. L., Warner, R. C., van Ommen, T., Siegert, M. J., and le Meur, E. (2014). Land-ice elevation changes from photon counting swath altimetry: First applications over the Antarctic ice sheet. Journal of Glaciology.
+ &lt;a href="#sf-touring-utigs-airplane-24-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-touring-utigs-airplane-25"&gt;
+I was impressed by my research group's data management discipline when I was able to dig up and painlessly use 20+ year old data to do this analysis!
+ &lt;a href="#sf-touring-utigs-airplane-25-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Penguins Visit Zhongshan</title><link href="/blog/2016/01/20/penguins-visit-zhongshan/" rel="alternate"></link><updated>2016-01-20T20:00:00-06:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2016-01-20:blog/2016/01/20/penguins-visit-zhongshan/</id><summary type="html">&lt;p&gt;&lt;img src="/images/zhongshan_penguins/zhongshan_penguins.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;I woke up to hear the magic word “penguins” in the dorm hallway, so I grabbed my camera and ran down to the shore, which led to a lovely afternoon spent following them around the station.
+This was all in accordance with my research group's official "penguin policy" stating that penguin sightings have priority over anything but a flight.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins03.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;The Adelies were generally indifferent to our presence,&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguin_reflection.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;but when we started to leave for dinner, they followed ...&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins02.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;The others headed up the hill to the main building and dinner, but the penguins and I hung a right ...&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_seacans.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;... in order to waddle through the cargo yard ...&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_cargo.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;... where construction scraps are being packed up to be shipped back to China.
+The penguins seemed oblivious to me and my camera - even running within  a few feet of me!&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_road3.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;They found the road again ...&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_ice1.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;...only to reject this path back out onto the ice.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_ice2.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;For some reason, this ice is more appealing.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_skua.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;They hung out here for quite a while, bobbing up and down as the ice moved in the waves.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/penguins_skua3.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;The skuas also liked this area, and this shot captures a rare moment of peace.
+It is way more common for the penguins to aggressively chase off the skuas.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/zhongshan_penguins/stomachs.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;I've finally run out of shoreline to follow them on, and this group of 8 was last seen as specks off in the distance.&lt;/p&gt;
+&lt;p&gt;However, I went over the hill to the left, and found more penguins!&lt;/p&gt;
+&lt;p&gt;&lt;img width="110" alt="""" title="""" src="/images/zhongshan_penguins/penguin03.jpg"&gt;
+&lt;img width="105" alt="""" title="""" src="/images/zhongshan_penguins/penguin06.jpg"&gt;
+&lt;img width="125" alt="""" title="""" src="/images/zhongshan_penguins/penguin02.jpg"&gt;
+&lt;img width="125" alt="""" title="""" src="/images/zhongshan_penguins/penguin01.jpg"&gt;
+&lt;img width="125" alt="""" title="""" src="/images/zhongshan_penguins/penguin04.jpg"&gt;
+&lt;img width="75" alt="""" title="""" src="/images/zhongshan_penguins/penguin05.jpg"&gt;&lt;/p&gt;</summary></entry><entry><title>Xuelong: 2.5 Weeks on an Icebreaker</title><link href="/blog/2016/01/07/xuelong/" rel="alternate"></link><updated>2016-01-07T12:00:00-06:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2016-01-07:blog/2016/01/07/xuelong/</id><summary type="html">&lt;p&gt;&lt;img src="/images/xuelong/fremantle.jpg" alt=""About to leave (it's still warm!)"" title=""About to leave (it's still warm!)""&gt;&lt;/p&gt;
+&lt;p&gt;We left the Xuelong for Zhongshan station a month ago, but we've been so busy since then it feels like much longer. I've finally gotten enough time to put together some pictures from our remarkably enjoyable and relaxing time on the boat.&lt;/p&gt;
+
+
+&lt;p&gt;We departed from Fremantle, Australia on November 22, a few days ahead of schedule. Most of the people on the Xuelong had boarded in Shanghai a few weeks earlier.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/pingpong.jpg" alt=""Jamin and Dr. Guo playing ping pong"" title=""Jamin and Dr. Guo playing ping pong""&gt;&lt;/p&gt;
+&lt;p&gt;The ping pong table was centrally located just outside the first floor dining room. This was the leisure activity of choice on board the Xuelong, and we had the treat of watching Dr. Sun win the ship-wide tournament. Dr. Guo was kind enough to play against Jamin and I and give us pointers, and we quickly got into the habit of staying up late so we could play when everybody else was asleep. (It helped that they always served noodles or dumplings at 11pm.) The door in the background leads down to this passage&lt;/p&gt;
+&lt;p&gt;&lt;img width="300" alt="""" title="""" src="/images/xuelong/passageway.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;which makes it possible to get from the front (where all the bedrooms and common areas are) to the back (where the engine and helicopters are) without having to go outside into bad weather.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/engine_room.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;Both Dr. Sun and Dr. Guo gave me a tour of the engine room (I forgot my camera the first time!)&lt;/p&gt;
+&lt;p&gt;&lt;img width="300" alt="""" title="""" src="/images/xuelong/room.jpg"&gt;
+&lt;img width="300" alt="""" title="""" src="/images/xuelong/bathroom.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I was surprised by how comfortable the ship was - three of us shared this room (I had the top left bunk), and we even had our own private bathroom, complete with shower. &lt;/p&gt;
+&lt;p&gt;&lt;img width="300" alt="""" title="""" src="/images/xuelong/hallway.jpg"&gt;
+&lt;img width="300" alt="""" title="""" src="/images/xuelong/stairs.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I consistently felt welcome and accepted on the Xuelong. I really like being in a place where everybody says "hello" or "ni hao" with a smile when passing in the hallways. &lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/diningroom.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;We spent a lot of time hanging out in the second floor dining room. It was the main social gathering spot - I learned to play a popular card game (5-10-King) and Chinese Chess. At night, it was peaceful, and I really enjoyed working in a spot with natural light and views.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/dumplings.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;In general the food was good - our colleagues were endearingly but needlessly worried about this. I got to try some things I'd never had before, including eel and bullfrog. One of the big social events of the trip was the dumpling making party pictured above. We were eating them for days afterwards. &lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/view.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;I also spent a fair bit of time outside on the various decks, just enjoying watching the ice pass by. We were allowed to wander pretty much anywhere, and the Xuelong is big enough I never felt cabin fever. This view was nice because it was usually out of the wind, and it gave me a good look at the Xuelong. It never stopped being surreal that I was in the middle of the ocean on a Chinese icebreaker. All of the drums of fuel on the deck are meant for the airplane that we'll be using for our data collection. Our instruments are in the hold - once the fuel was removed, massive doors swung up and the cranes lifted out the shipping containers.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/bridge.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;Of course, the best views on the ship were from the bridge. One floor down, in the weather office, there were also great views and an open invitation to stop by for tea and snacks. &lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/satphone.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;The only place the satellite phone reliably worked was on the very top deck, amidst the antennas and various science equipment, exposed to the wind.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/best_view.jpg" alt=""Penguins!"" title=""Penguins!""&gt;&lt;/p&gt;
+&lt;p&gt;Once we broke through hundreds of meters of ice and parked, this was my favorite view on the ship. The penguins loved this bit of open water, and we could almost always see a few somewhere nearby.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/roommates.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;After we were parked, we were allowed off the boat. Here I'm posing with my roommates. You can see our window - we were on the 5th floor (2 below the bridge), second from right in this view. One morning I was baffled by an almost-dead cellphone, until I discovered a text message "Welcome to China! Your roaming rates are ...". Surprise! Not only does Zhongshan station have 3G coverage, but it occasionally reached us on the Xuelong. &lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/paparazzi.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;The penguins were entirely unfazed by the humans.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/helicopter.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;However, they skedaddled in an adorable panic when the helicopter appeared. There was a large crack in the sea ice near the station, so the entire resupply was done by helicopter, rather than driving the ~20km over the ice.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/leaving.jpg" alt="""" title=""""&gt;&lt;/p&gt;
+&lt;p&gt;And, we're leaving! This was my first helicopter ride, and I was lucky enough to have a window view. Given that we were in the hold of a cargo helicopter, most people didn't.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/xuelong/iceberg.jpg" alt="""" title=""""&gt;&lt;/p&gt;</summary></entry><entry><title>Apostasy, Step 1: Surviving Vim</title><link href="/blog/2015/10/17/apostasy-step-1-surviving-vim/" rel="alternate"></link><updated>2015-10-17T00:00:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2015-10-17:blog/2015/10/17/apostasy-step-1-surviving-vim/</id><summary type="html">&lt;p&gt;My colleagues objected to installing emacs on our robot and I find nano woefully insufficient, so I finally admitted that I have to learn vim. Until recently, all I knew was &lt;code&gt;:q!&lt;/code&gt;, and I used it with extreme prejudice.&lt;/p&gt;
+
+
+&lt;p&gt;It took me a while to not hate vim, and I still prefer emacs despite not being a power-user in the least. My problem with vim is that I really struggle with remembering which mode I am in. I think the key here is to &lt;em&gt;always&lt;/em&gt; leave it in command mode unless you're actively inserting text. I should have taken the hint from how &lt;em&gt;command&lt;/em&gt; mode is also called &lt;em&gt;normal&lt;/em&gt; mode, but it took a while for this to click.&lt;/p&gt;
+&lt;p&gt;The other main thing to realize is that compands are composable, such that &lt;code&gt;:w&lt;/code&gt; is save and &lt;code&gt;:q&lt;/code&gt; is quit, so &lt;code&gt;:wq&lt;/code&gt; is save and quit. I suspect that this becomes even more powerful once you're more fluent.&lt;/p&gt;
+&lt;p&gt;There have been silver linings for me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I can use the default GNU screen configuration on the robot without the usual &lt;code&gt;Ctrl-a&lt;/code&gt; headache in emacs.&lt;/li&gt;
+&lt;li&gt;I've fallen in love with the "delete to" command. It is exactly how I frame the operation in my head, and I've yet to find an emacs alternative that doesn't require lots of repetitive keystrokes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt; Links/References/Configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Why the heck would you use the least-accessible key on the keyboard for the most-critical key in vim? I assume that everybody remaps it: I chose CapsLock, which was a win all around.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This post about how &lt;a href="https://medium.com/@mkozlows/why-atom-cant-replace-vim-433852f4b4d1"&gt;vim's big idea is composability&lt;/a&gt; did a great job putting editor history into perspective for me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There's a &lt;a href="vim-adventures.com"&gt;game&lt;/a&gt; for learning vim shortcuts!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Cheatsheet&lt;/h4&gt;
+&lt;p&gt;For my own reference, I'm documenting the equivalent commands as my fingers reach for the emacs shortcuts:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center"&gt;emacs&lt;/th&gt;
+&lt;th align="center"&gt;vim&lt;/th&gt;
+&lt;th align="center"&gt;description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;(none)&lt;/td&gt;
+&lt;td align="center"&gt;Esc&lt;/td&gt;
+&lt;td align="center"&gt;enter normal/command mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;(none)&lt;/td&gt;
+&lt;td align="center"&gt;i&lt;/td&gt;
+&lt;td align="center"&gt;before current character, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl&amp;#8209;x&amp;nbsp;Ctrl&amp;#8209;c&lt;/td&gt;
+&lt;td align="center"&gt;:q&lt;/td&gt;
+&lt;td align="center"&gt;quit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;:qa&lt;/td&gt;
+&lt;td align="center"&gt;quit all (appending 'a' applies to all buffers)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;:q!&lt;/td&gt;
+&lt;td align="center"&gt;quit w/o saving (appending '!' forces the command)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl&amp;#8209;x&amp;nbsp;Ctrl&amp;#8209;s&lt;/td&gt;
+&lt;td align="center"&gt;:w&lt;/td&gt;
+&lt;td align="center"&gt;save&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl&amp;#8209;x&amp;nbsp;Ctrl&amp;#8209;f&lt;/td&gt;
+&lt;td align="center"&gt;:e&lt;/td&gt;
+&lt;td align="center"&gt;open file; use tab to cycle through existing files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-a&lt;/td&gt;
+&lt;td align="center"&gt;^&lt;/td&gt;
+&lt;td align="center"&gt;go to start of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;I&lt;/td&gt;
+&lt;td align="center"&gt;go to start of line, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-e&lt;/td&gt;
+&lt;td align="center"&gt;$&lt;/td&gt;
+&lt;td align="center"&gt;go to end of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;a&lt;/td&gt;
+&lt;td align="center"&gt;after current character, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;A&lt;/td&gt;
+&lt;td align="center"&gt;end of line, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;o&lt;/td&gt;
+&lt;td align="center"&gt;insert line below, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;O&lt;/td&gt;
+&lt;td align="center"&gt;insert line above, drop into insert mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-n&lt;/td&gt;
+&lt;td align="center"&gt;j&lt;/td&gt;
+&lt;td align="center"&gt;next line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-p&lt;/td&gt;
+&lt;td align="center"&gt;k&lt;/td&gt;
+&lt;td align="center"&gt;prev line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;h&lt;/td&gt;
+&lt;td align="center"&gt;prev character&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;l&lt;/td&gt;
+&lt;td align="center"&gt;next character&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Alt-&amp;lt;&lt;/td&gt;
+&lt;td align="center"&gt;gg&lt;/td&gt;
+&lt;td align="center"&gt;start of file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Alt-&amp;gt;&lt;/td&gt;
+&lt;td align="center"&gt;G&lt;/td&gt;
+&lt;td align="center"&gt;end of file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Meta-x 2&lt;/td&gt;
+&lt;td align="center"&gt;:sp&lt;/td&gt;
+&lt;td align="center"&gt;horizontally splits the pane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Meta-x 3&lt;/td&gt;
+&lt;td align="center"&gt;:vs&lt;/td&gt;
+&lt;td align="center"&gt;vertically splits the pane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-x o&lt;/td&gt;
+&lt;td align="center"&gt;Ctrl-w-w&lt;/td&gt;
+&lt;td align="center"&gt;cycle through pane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-x 0&lt;/td&gt;
+&lt;td align="center"&gt;:q&lt;/td&gt;
+&lt;td align="center"&gt;kill current pane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-x k&lt;/td&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;kill current buffer in pane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-k&lt;/td&gt;
+&lt;td align="center"&gt;D&lt;/td&gt;
+&lt;td align="center"&gt;cut from current position to end of line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;dd&lt;/td&gt;
+&lt;td align="center"&gt;cut entire current line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;dt.&lt;/td&gt;
+&lt;td align="center"&gt;deletes from current position to just before '.'&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;df.&lt;/td&gt;
+&lt;td align="center"&gt;deletes from current position, including '.'&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;dT.&lt;/td&gt;
+&lt;td align="center"&gt;(make the prev comman, but backwards)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;d2t.&lt;/td&gt;
+&lt;td align="center"&gt;deletes from current position until the second occurrence of '.' (In general, can add numbers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;yy&lt;/td&gt;
+&lt;td align="center"&gt;yank line&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-Space&lt;/td&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;select region&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-w&lt;/td&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;yank selected region&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Alt -w&lt;/td&gt;
+&lt;td align="center"&gt;&lt;/td&gt;
+&lt;td align="center"&gt;copy selected region&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-y&lt;/td&gt;
+&lt;td align="center"&gt;p&lt;/td&gt;
+&lt;td align="center"&gt;paste what you just cut/copied&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Ctrl-_&lt;/td&gt;
+&lt;td align="center"&gt;u&lt;/td&gt;
+&lt;td align="center"&gt;Undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Alt-%&lt;/td&gt;
+&lt;td align="center"&gt;&lt;code&gt;:%s/&amp;lt;s1&amp;gt;/&amp;lt;s2&amp;gt;/gc&lt;/code&gt;&lt;/td&gt;
+&lt;td align="center"&gt;find-and-replace globally with confirmation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
+TODO:
+
+* region selection?
+* it seems lke undo only has a buffer size of 1?
+* how to make it tab python to correct spot when pressng tab anywhere within th eline?
+* highlight and delete trailing whitespace
+
+Critical configuration steps (I meant to do this stuff, not sure if I did):
+
+* syntax highlighting
+* Command line shortcuts to vim keys (away from emacs)
+* how to set up tab indentation?
+
+--&gt;
+
+&lt;p&gt;(My learning curve was made much less frustrating thanks to a generously helpful colleague. Thanks Mark!)&lt;/p&gt;</summary></entry><entry><title>A Brief Introduction to Ice-Penetrating Radar</title><link href="/blog/2015/07/27/a-brief-introduction-to-ice-penetrating-radar/" rel="alternate"></link><updated>2015-07-27T23:00:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2015-07-27:blog/2015/07/27/a-brief-introduction-to-ice-penetrating-radar/</id><summary type="html">&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/TOT.JKB2d.X16a_plain.png" alt="TOT/JKB2d/X16a" /&gt;&lt;/p&gt;
+&lt;p&gt;I've been working with ice-penetrating radar data for years, and I still think it's so flipping cool that we can see through kilometers of ice using radar.
+This is possible because ice is mostly transparent to electromagnetic energy at radar frequencies.
+We see reflections at the air/ice interface, within the ice where its properties change, and at the ice/rock (or ice/water) interface.&lt;/p&gt;
+
+
+&lt;p&gt;Over the last few decades&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, my group has collected airborne ice-penetrating data all over Antarctica:&lt;/p&gt;
+&lt;div align="center"&gt;
+  &lt;img src="/images/what_does_radar_data_look_like/all_UTIG_0.png" style="width: 500px;" alt="UTIG flights"/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In order to collect this data, we mount antennas and recording equipment on a modified DC3. These are unpressurized WWII-era airplanes that have been updated with new engines. The left image below shows JKB taking off from the Casey skiway; the right image shows one of my colleagues monitoring the instruments during a flight. As the plane flies, the radar transmits 6250 pulses every second.
+After each pulse, it listens for reflected energy; this returned signal is what you're looking at in the radargram.&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/JKB_antennas.jpg" style="width: 400px;" alt="platform's antennas" /&gt;
+&lt;img src="/images/what_does_radar_data_look_like/JKB_racks.jpg" style="width: 275px;", alt="airplane's racks"/&gt;&lt;/p&gt;
+&lt;p&gt;I spend a lot of time studying radar profiles like the one below.
+The x-axis is distance along the flight line, and the y-axis is height.&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; In effect, we're looking at a slice of the ice sheet.
+White corresponds to a strong reflection, and we can clearly see the surface and bed all along the transect.
+This particular profile is running along the Totten Ice Shelf; it is highlighted in red on the right (zoomed-in) image below.
+The star indicates the start of the profile.
+Note how the bed signal gets weaker as we cross the grounding zone - radar energy reflects more strongly from water than from rock.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/TOT.JKB2d.X16a_full.png" alt="TOT/JKB2d/X16a full transect"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/TOT_JKB2d_X16a_2.png" style="width: 245px;" alt="context map zoom0"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/TOT_JKB2d_X16a_1.png" style="width: 223px;" alt="context map zoom1"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/TOT_JKB2d_X16a_0.png" style="width: 202px;" alt="context map zoom2"/&gt;&lt;/p&gt;
+&lt;p&gt;Totten Glacier is interesting because it is losing mass relatively quickly, as determined by satellite gravity&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; and  altimetry.&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt; Among other things, radar data is used in areas like this to better determine the location of the grounding line and to calculate the volume of ice in the drainage feeding an outlet glacier.&lt;sup id="fnref:6"&gt;&lt;a class="footnote-ref" href="#fn:6" rel="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3&gt;Multiple Reflections&lt;/h3&gt;
+&lt;p&gt;When looking at radargrams, another thing to watch out for are multiple reflections, which can be confused for the bed or a layer.
+These most commonly occur when the radar energy bounces back off the plane, to the surface, and back to the plane.
+It is possible to distinguish such a multiple from a true layer because it is always the same distance below the surface as the plane is above the surface, which means that the multiple's apparent slope is twice that of the surface's.
+An example of this type of multiple can be found in the Totten transect above.
+Below, we have data from over the Ross Ice Shelf.
+The ice shelf is thin enough, and the bottom echo strong enough, that we see multiples due to the radar energy bouncing between the ice's interfaces, as well as back off the plane.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/MIS.JKB2e.Y25a_full.png" style="width: 675px;" alt="MIS/JKB2e/Y25 full transect"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/MIS_JKB2e_Y25a_2.png" style="width: 245px;" alt="MIS zoom 0"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/MIS_JKB2e_Y25a_1.png" style="width: 223px;" alt="MIS zoom 1"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/MIS_JKB2e_Y25a_0.png" style="width: 202px;" alt="MIS zoom 2"/&gt;&lt;/p&gt;
+&lt;h3&gt;Beam Pattern&lt;/h3&gt;
+&lt;p&gt;Radar data can be more difficult to interpret than laser data because the beam pattern is not anywhere near as focused. This means that the energy received at a given point in space is not necessarily a reflection from directly below the airplane, as would be most convenient/intuitive to assume. On our airplane, the along-track pattern is a single lobe with half power at 152-degrees (below, left). Cross-track, the first lobe is at 22-degrees, and is only 2.4dB weaker than the main lobe directly below the airplane (below, right).&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/jkb-geardown-side.png" style="width: 245px;" alt="side view of JKB"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/jkb-geardown-front.png" style="width: 310px;" alt="front view of JKB"/&gt;
+&lt;img src="/images/what_does_radar_data_look_like/beam_pattern_along_track.png" style="width: 345px;" alt="side view of antenna pattern" /&gt;
+&lt;img src="/images/what_does_radar_data_look_like/beam_pattern_cross_track.png" style="width: 345px;" alt="front view of antenna pattern" /&gt;&lt;/p&gt;
+&lt;p&gt;(Figures from&lt;sup id="fnref:7"&gt;&lt;a class="footnote-ref" href="#fn:7" rel="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt;, showing the antenna's gain in dB as a function of angle.)&lt;/p&gt;
+&lt;h3&gt;Reflections from the side&lt;/h3&gt;
+&lt;p&gt;The previous radargram has an undulating surface that could be confused for the bottom of an ice shelf.
+However, looking at a map, we can see that this region is either open water or sea ice. The location of the ice shelf's edge roughly matches the reflector's geometry, so this is actually the side of the ice shelf reflecting energy from one of the sidelobes!
+Echoes off to the side aren't always so easy to interpret.
+Here's a more confusing transect flying along a valley:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/ICP2.JKB1a.F09T01a_full.png" alt="ICP2/JKB1a/F09T01a full transect"/&gt;&lt;/p&gt;
+&lt;p&gt;A number of research groups are actively working on how to determine whether a signal is a side echo or originates from directly below the aircraft, but it's not yet a solved problem. Techniques that have been tried include recording from multiple antennas at the same time and comparing the phase difference,&lt;sup id="fnref:8"&gt;&lt;a class="footnote-ref" href="#fn:8" rel="footnote"&gt;8&lt;/a&gt;&lt;/sup&gt; or comparing the radar data to a known elevation map of the surface.&lt;sup id="fnref:9"&gt;&lt;a class="footnote-ref" href="#fn:9" rel="footnote"&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3&gt;Reflections from ahead/behind&lt;/h3&gt;
+&lt;p&gt;The wide beam pattern along-track also means that a strong reflector will be seen long before/after we actually fly over it.
+These show up as hyperbolas in the radargram, as illustrated in the cartoon below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/hyperbola_geometry_jkb.png" style="width: 500px;" alt="geometry forming hyperbola"/&gt;&lt;/p&gt;
+&lt;p&gt;Crevasses are very good reflectors since a corner will reflect energy along the same path that it came in on.
+They show up well in some regions of the Totten Ice Shelf transect above.
+Man-made structures also show up as strong reflectors. In the radargram below, we see South Pole Station as a set of hyperbolas. Their peaks appear below the surface reflection because this transect didn't directly cross the station - it was about a kilometer to the side.&lt;/p&gt;
+&lt;p&gt;There are existing processing techniques for dealing with a wide along-track beam angle that reduce the appearance of hyperbolas. The basic idea is that you've observed the same location from a number of different positions as you're flying over it, and can use that redundancy to figure out where the "real" reflector is,&lt;sup id="fnref:10"&gt;&lt;a class="footnote-ref" href="#fn:10" rel="footnote"&gt;10&lt;/a&gt;&lt;/sup&gt; but the details are a topic for another post.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/NPX.SJB2.NPX02a_full.png" alt="NPX/SJB2/NPX02a" /&gt;&lt;/p&gt;
+&lt;p&gt;The radargram above has striking layers which are also wonderfully useful for modelling the ice sheet. A lot of work is done to correlate layers observed in radargrams to ice properties directly measured from a drilled core. This is analogous to studying tree rings, but over a much longer time frame. There are ice cores from East Antarctica that provide a climate record for the last 800,000 years.&lt;sup id="fnref:11"&gt;&lt;a class="footnote-ref" href="#fn:11" rel="footnote"&gt;11&lt;/a&gt;&lt;/sup&gt; Once you have this correlation, and if you can trace a continuous layer across a region, you then know the age-depth relationship for the ice sheet. The deformation of layers also contains information about how the ice has been moving.&lt;/p&gt;
+&lt;p&gt;A colleague claims that no presentation about Antarctica is complete without a penguin. They're far too small to show up in radar data, but here's a picture of a pair from Shirley Island, near Casey Station:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/what_does_radar_data_look_like/pair_of_penguins.jpg" alt="pair of penguins" /&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href="https://www.somerandomidiot.com"&gt;Mindy Preston&lt;/a&gt; for comments and questions about an earlier version of this post!&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;I was looking for extra storage space in the office the other day, and ran across a fantastic filing cabinet: the top three drawers had data on 3 different generations of tape: LTO3, which we're only just now phasing out for LTO6, one that looked more like a cassette tape, and one set of huge spools that were labeled "800Bytes per Inch", and dated from the early 1980's. The bottom drawer contained a few rolls of photographic paper - still smelling of darkroom chemicals! - with radar transects printed on them, dating from 1979.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;We transmit a 1us chirped pulse, with a 15MHz bandwidth centered around 60MHz. We digitize the returned signal at 50MHz, and stack 32 traces before recording to disk. The recorded signal is dechirped and stacked again to create the images I'm showing here, but those are details for another post.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;More precisely, both axes are in units of time - each column of the image corresponds to the information received from a single pulse of the radar, and the the rows are how much time has passed since the transmission.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Chen, J. L., Wilson, C. R., Blankenship, D., and Tapley, B. D. Accelerated Antarctic ice loss from satellite gravity measurements. Nature Geoscience 2, 12 (2009), 859–862.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;Pritchard, H. D., Arthern, R. J., Vaughan, D. G., and Edwards, L. A. Extensive dynamic thinning on the margins of the Greenland and Antarctic ice sheets. Nature 461, 7266 (2009), 971–975.&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;Greenbaum, J. S., Blankenship, D. D., Young, D. A., Richter, T. G., Aitken, A. R. A., Legresy, B., Schroeder, D. M., Roberts, J. L., Warner, R. C., van Ommen, T. D., and Siegert, M. J. Increased Ocean Access to Totten Glacier, East Antarctica. Nature Geos (2015).&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;Peters, M. E., Blankenship, D. D., Carter, S. P., Kempf, S. D., Young, D. A., and Holt, J. W. Along-track focusing of airborne radar sounding data from West Antarctica for improving basal reflection analysis and layer detection. Geoscience and Remote Sensing, IEEE Transactions on 45, 9 (2007), 2725–2736.&amp;#160;&lt;a class="footnote-backref" href="#fnref:7" rev="footnote" title="Jump back to footnote 7 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;Gogineni, S., YAN, J., Paden, J., Leuschen, C., Li, J., Rodriguez-Morales, F., Braaten, D., Purdon, K., Wang, Z., Liu, W., et al. Bed topography of Jakobshavn Isbrae, Greenland, and Byrd Glacier, Antarctica. Journal of Glaciology 60, 223 (2014), 813.&amp;#160;&lt;a class="footnote-backref" href="#fnref:8" rev="footnote" title="Jump back to footnote 8 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;Holt, J. W., M. E. Peters, S. D. Kempf, D. L. Morse, and D. D. Blankenship (2006), Echo source discrimination in single-pass airborne radar sounding data from the Dry Valleys, Antarctica: Implications for orbital sounding of Mars, J. Geophys. Res., 111, E06S24, doi:10.1029/2005JE002525.&amp;#160;&lt;a class="footnote-backref" href="#fnref:9" rev="footnote" title="Jump back to footnote 9 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:10"&gt;
+&lt;p&gt;Peters, M. E., Blankenship, D. D., Carter, S. P., Kempf, S. D., Young, D. A., and Holt, J. W. Along-track focusing of airborne radar sounding data from West Antarctica for improving basal reflection analysis and layer detection. Geoscience and Remote Sensing, IEEE Transactions on 45, 9 (2007), 2725–2736&amp;#160;&lt;a class="footnote-backref" href="#fnref:10" rev="footnote" title="Jump back to footnote 10 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:11"&gt;
+&lt;p&gt;Lambert, Fabrice, et al. "Dust-climate couplings over the past 800,000 years from the EPICA Dome C ice core." Nature 452.7187 (2008): 616-619.&amp;#160;&lt;a class="footnote-backref" href="#fnref:11" rev="footnote" title="Jump back to footnote 11 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</summary></entry><entry><title>What does networking look like?</title><link href="/blog/2014/11/11/what-does-networking-look-like/" rel="alternate"></link><updated>2014-11-11T06:46:00-06:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2014-11-11:blog/2014/11/11/what-does-networking-look-like/</id><summary type="html">&lt;p&gt;As a student, I often heard that "networking" was the way to get a job. I didn't have a clear picture of what it involved, other than the oft-cited advice of "invite people at your target company out for an informational interview over coffee."  The idea of setting up a coffee date with a stranger just because they work at a company that I'm interested in felt devious and mercenary and awkward - as though I wouldn't be straight-up asking for a job, but kinda-sorta hoping that they'd submit my name. I wish I'd had better examples of what networking looked like, or how it could lead to a job. &lt;/p&gt;
+
+
+&lt;p&gt;I still struggle with networking (I'm way too shy at conferences, not particularly active on any form of social media, tend to over-analyze follow-up emails), but I've realized that my adventures in intentionally piecing together a series of internships and short term jobs over the past few years are an example of how networking has worked for a recent grad who hadn't even realized that what she was doing counted as networking.&lt;/p&gt;
+&lt;p&gt;So, in the interest of giving concrete examples, here are some things that went well for me:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 1&lt;/strong&gt;: I'd worked here before, years ago, and wanted to return for a short-term gig. It was a scary phone call to make, but I simply called my old mentor and asked if he had anywhere that I could be of use. After a few months of emailing, all the details came together and I wound up with an interesting project well-suited to my skills.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Moral&lt;/em&gt;: Ask for what you want, somebody just might say yes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 2&lt;/strong&gt;: This one was the classic case where a professor had a contact in a company, and introduced a student in need of an internship to a recruiter looking for students. I had a great chat with the company, and would have taken the offered internship except for the problem that their bureaucratic rules were not a good fit with my timeline. Even after I turned down the immediate offer, the recruiter encouraged me to contact them again for a different internship cycle.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Moral&lt;/em&gt;: It makes profs look good to recommend good students to a company, so let them know you're looking!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 3&lt;/strong&gt;: There are only a few places in the country working on what I'm interested in, and this one sounded very appealing to me. I asked a friend if he knew anybody there. He didn't but he knew somebody who knew one of the guys I wanted to work with, and they were both willing to pass along the introduction. It turned out that this organization didn't have anything that matched what I wanted, but a collaborator at another institution did. I was this.close to taking a summer research position with the collaborator, working in my ideal role, until it fell through thanks to international bureaucratic fun. After our first attempt fell through, I visited his lab again, and was introduced to another potential collaborator.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Moral&lt;/em&gt;: Holy cow - 4 edges in the graph! It works like that?!&lt;/p&gt;
+&lt;p&gt;Later, I knew that I wanted an internship, and had my eye on a few companies in the bay area. I also had a few weeks of vacation, and friends I wanted to visit. So … I flew up there, having already arranged to see my friends and actually meet the researcher at Organization 3. This led to three other leads: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 4&lt;/strong&gt;: They consistently published job postings for internships, and I'd had my eye on them for a while, but had been procrastinating on sending in a cover letter. The friend from undergrad who I was staying with offered to introduce me, which led to an in-person interview on 2 days notice. While at that interview, I ran into &lt;em&gt;another&lt;/em&gt; friend from undergrad who worked for a different group in the same company. I was roped into an impromptu interview with his bosses, who were also looking for interns, and wound up with offers from both groups.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 5&lt;/strong&gt;: I had had a half-finished cover letter to this place sitting on my hard drive for at least 6 months, but hadn't had the guts to send it. It was my dream internship. A friend from grad school and I met for dinner, and he had interned there a year ago. It didn't even occur to me to ask for an introduction because while we had been in the same department, we only knew each other through extracurriculars. As soon as he heard I was looking for internships, he offered to introduce me to his previous boss. This contact moved too slowly for an in-person interview while I was in CA, but after two telephone calls I wound up with an offer that led to the best internship ever.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 6&lt;/strong&gt;: I'd never heard of them, but the same friend from grad school worked there and was excited about the company. He set up an informational interview for me (again on a few days notice), and I had a fun day talking with the founders and some of the engineering staff. We wound up not taking it any further - they were an early-stage startup, looking to hire full-time staff immediately, and I was firm in wanting a time-bounded internship to aid in my exploration. However - their recruiter contacted me later, once they were stable enough to actually have intern positions open.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Moral&lt;/em&gt;: It's OK to say "this isn't what I'm looking for right now". "Not right now" doesn't have to mean "not ever".&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Moral2&lt;/em&gt;: "I'm in town now, can we meet in the next week" can be way more powerful than "here's my resume, I'm interested". I know that Organization #4 has a big pile of typical resumes/cover letters that they slog through, and I totally jumped the line.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 7&lt;/strong&gt;: I went to a talk that I found stimulating - the speaker was working on problems related to what I was about to start a PhD on, but approaching them very differently. Afterwards, I milled around and eventually (awkwardly) introduced myself. As soon as I explained my interest, the speaker was effusively enthusiastic and invited me to visit her lab. This didn't go anywhere beyond a fun tour where I got to meet a number of research groups working in areas related to my own, but I include it as an example of how friendly people can be if you demonstrate an interest in their work, and how easy it was to get further introductions. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization 8&lt;/strong&gt;: I first heard of them while working with Organization 1, and thought that their project was just about the coolest thing ever, and I wanted to work on it. I didn't know if they were hiring, but I asked my mentor from Organization 1 to introduce me to the CEO of Organization 8. I flew to town on my own dime to visit family and chat with the CEO, with the goals of finding out if the project was as interesting as I thought and of getting on his radar. A few months later, I visited town again, and mentor #1 invited me to attend a meeting with CEO #8 (and most of the rest of his company). At this point, I explicitly told the CEO that I wanted to work for him and sent in a resume, but the logistics didn't work out for me to accept a position until a few months after that. &lt;/p&gt;
+&lt;p&gt;I had a fantastic two years where I accomplished everything that I'd originally daydreamed of when deciding to take time off from grad school. (I wound up working with #1, #4, #5 and #8.) In that time, the only thing that I applied to directly was Hacker School - for everything else, the first contact was an introduction. &lt;/p&gt;
+&lt;p&gt;I have no idea if this is typical for what "networking" looks like for other recent grads, but I do know that I love my friends and that I have been very lucky. So far, for me, "networking" has simply been a side effect of keeping in contact with people I was going to hang out with anyways. Telling your friends that you're looking for a new gig doesn't have come across as a request for assistance - it happens naturally when updating them on your life, and that gives them an opportunity to help if they want to. I've also been surprised by how effective it was to openly and consistently state my goals and motivations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The people I've dealt with seemed to want to find a way that we could work together, even when my preferences were atypical: I had explicitly wanted short-term work, and turned down the longer-term gigs that were offered.&lt;/li&gt;
+&lt;li&gt;I never encountered any rancor as a result of my saying "this doesn't fit with my goals right now - maybe we can work something out later?" In most cases, the other party very explicitly left the door open for future collaboration. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After reflecting on this, I've flipped how I see an "informational interview". Rather than an ill-disguised attempt to be referred for a job, it's a request to talk to somebody who is working on something that I'm keenly interested in. When viewed that way, it doesn't feel at all mercenary, or like I'd be struggling to come up with relevant questions. Instead, it would be an excuse to have a conversation that's worthwhile and entertaining on its own. &lt;/p&gt;</summary></entry><entry><title>A Visual Chronology of Robots</title><link href="/blog/2014/11/01/a-visual-chronology-of-robots/" rel="alternate"></link><updated>2014-11-01T04:22:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2014-11-01:blog/2014/11/01/a-visual-chronology-of-robots/</id><summary type="html">&lt;p&gt;I was just updating my official resume, and felt like making a more fun version. Here are all of the robots that I’ve worked with and could find pictures of. In chronological order:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/bob.jpg" /&gt;&lt;/p&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Bob was Team Caltech’s entry for the 2004 DARPA Grand Challenge, which was a race across the desert for fully autonomous vehicles. I wasn’t involved in that competition, but we used the vehicle for a course project and in early preparations for the 2005 DGC while waiting for Alice to be completed.&lt;/p&gt;
+&lt;p&gt;In 2005, I worked on a PID controller that calculated the appropriate steering and throttle/brake commands to keep Bob/Alice on the desired path. When I started working on this project, I’d assumed that the control theory would be the tricky part. Instead, I wound up spending most of my efforts characterizing/negotiating the interfaces. If new paths generated by the planner weren’t continuous with the robot’s current state, no amount of tuning the gains could fix the vehicle’s overall performance. This is a tricky balance of how far in front of the vehicle a trajectory should remain fixed: too short, and you get jerky control, too far, and your vehicle won’t be able to a avoid newly-detected obstacle. Similarly, if my output steering commands were too high frequency, we’d blow up the steering pump. Repeatedly. This led to negotiations with the vehicle team over how much responsiveness was worth sacrificing to protect the hardware.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/alice-launch.jpg" /&gt;  &lt;br /&gt;
+Launching for the 2005 DARPA Grand Challenge
+(Alice! Once you have a Bob, the next one has to be Alice.)&lt;/p&gt;
+&lt;p&gt;Alice was Team Caltech’s entry for the 2005 DARPA Grand Challenge, which was another desert race, and for the 2007 DARPA Urban Challenge, which required following traffic laws while interacting with other cars/robots.&lt;/p&gt;
+&lt;p&gt;In 2007, my main project was a module that would use the 4 bumper-mounted lidars to track moving vehicles. I did this by segmenting the scan based on discontinuities, looking for L shaped segments in the 2D scan, and then associating nearby segments in sequential scans. By looking at the direction the segment was moving, I could determine which corner we were tracking, and use the corner coordinates for a more accurate representation of the vehicle’s location. I used a simple Kalman Filter to predict the motion of the vehicles when occluded, and even reassociate them with an existing track when they reappeared. The basic algorithm design was sound, but I struggled with the implementation, spending way too much time debugging. This experience made me realize that I needed to become a better programmer if I wanted to be a roboticist.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/modsnake.png" /&gt;  &lt;br /&gt;
+They can also climb legs.&lt;/p&gt;
+&lt;p&gt;Snake robots - used for a course project on reinforcement learning, where we attempted to learn gait parameters that would lead to more efficient locomotion.&lt;/p&gt;
+&lt;div align="center"&gt;
+&lt;img src="/images/chronology_of_robots/herb.jpg" /&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;(image from &lt;a href="https://www.facebook.com/HerbMugface"&gt;HERB’s facebook page&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;HERB! I had a summer internship at Intel Research, working with their Home Exploring Robotic Butler.&lt;/p&gt;
+&lt;p&gt;My first project was to determine the relative calibration between a spinning laser scanner and a camera and use that to generate colorized point clouds. Once everything was calibrated, I designed an algorithm that used Markov Random Fields to predict the occupancy status of occluded areas. In other words, I was trying to predict that a glass is circular after only having seen the front of it, which is an important capability if you want your robot to be able to manipulate previously-unmodeled objects.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/youbot.png" /&gt;
+(Kuka youBot)&lt;/p&gt;
+&lt;p&gt;I attended the 4th BRICS research camp on robot software architectures, where we used these in the context of a navigation task. The goal was to develop an architecture that would allow the robot to switch between navigation by following waypoints (whose relative spatial layout could and would change) and navigation in gridmaps with a fixed geometry. I wrote a state machine that was in charge of switching between the different navigation modes, and a controller that followed waypoints in the order specified, with the constraint that the next one in the list had to be visible from the current one.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/lagr.jpg" /&gt; 
+(LAGR)&lt;/p&gt;
+&lt;p&gt;I was the technical lead for CMU’s entry into the TARDEC CANINE challenge. This was essentially a competition for robots to play fetch in the presence of moving obstacles. I designed the architecture that we used, and wrote the state machine that handled high-level control at each stage of the challenge. I also used this robot for a research project that investigated using Monte-Carlo Tree Search to plan paths that minimized distance traveled while maximizing information gain.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/m3pi.jpg" style="width: 275px;" /&gt;
+&lt;img src="/images/chronology_of_robots/sphero.jpg" style="width: 225px;" /&gt;&lt;/p&gt;
+&lt;p&gt;m3pi &amp;amp; Sphero - I wanted to play with robots at home and at &lt;a href="https://www.recurse.com/"&gt;Hacker School&lt;/a&gt;; this is what I could afford. I wrote a &lt;a href="https://github.com/lindzey/m3pi_ros"&gt;ROS driver&lt;/a&gt; for the m3pi, and put together a simple demo where it navigated between goal waypoints, using an overhead kinect to estimate its position.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/pr2.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;PR2! I had an internship at Bosch, working towards the far-off goal of having a robot clean up after me. Robot manipulation in clutter is an open problem; we hypothesized that if a human provided guidance for the initial segmentation, the rest of the task might become tractable. I designed and implemented a modular architecture for shared autonomy in the context of table clearing, with interchangeable human interfaces and segmentation algorithms.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/baxter.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Baxter! Also at Bosch. I didn’t use this robot for research, but it was involved in a prank.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/chronology_of_robots/google.jpg" /&gt;  &lt;br /&gt;
+ (image from Google’s &lt;a href="http://googleblog.blogspot.com/2014/04/the-latest-chapter-for-self-driving-car.html"&gt;blog post&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Google car! Best internship ever. Some of the stuff I worked on even wound up in the &lt;a href="http://www.youtube.com/watch?v=dk3oc1Hr62g"&gt;video&lt;/a&gt; they released.&lt;/p&gt;</summary></entry><entry><title>Features of a Successful Internship</title><link href="/blog/2014/10/28/features-of-a-successful-internship/" rel="alternate"></link><updated>2014-10-28T16:58:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2014-10-28:blog/2014/10/28/features-of-a-successful-internship/</id><summary type="html">&lt;p&gt;Between my MS and starting a PhD, I did a few internships. One in particular stood out as a fantastic experience, and I've been thinking about what they did so right.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Things my mentor did:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When I showed up, he had a starter project in mind for me. It was a relatively concrete feature request that even had an interface stubbed out, which allowed me to get started immediately. It was also very well chosen as an entry point to the codebase - by the time I'd finished this project, I'd learned a lot and was in a much better position to work on production code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My boss explicitly told me to ask for help after being stuck on anything for 15 minutes. Left to my own devices, I'll always struggle for longer than that, and I found that having an explicit guideline like that made me more productive. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My boss pointed me towards two things he wanted me to help improve (one in the simulation infrastructure, one in the production code), but I had a lot of freedom in deciding what the final solution should look like. He was also very receptive to suggestions I had for side projects: refactoring code, adding a related simulation feature, developing/improving library utilities, etc. I'd go to him for help prioritizing my work, but what I found interesting was also an important factor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At the end of my internship, my boss made me give a presentation. It was a pain, and preparing it ate up the better part of a week. However, I treated it like a job talk, and it was a great chance to show off what I'd gotten done. Better yet - it was well attended, including by people outside of my direct team. This was yet another example of the whole group making it clear that the work I did as an intern was valued.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Project Culture:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Code reviews! I care a lot about writing clean code, and it's awesome to have other people look at what I do and suggest how to make it better. This is not exactly something that's emphasized in most corners of academia. This particular group cared deeply (obsessively?) about the state of their codebase, and were always willing to explain why they thought a particular design was better. I learned a lot about writing production quality c++.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;They created a safe space for asking questions. Whenever I got stuck and went to somebody, they were patient and helpful. There's a huge difference in tone between "you don't know how to \&amp;lt;foo&gt;?!?" and "Oh! let me show you how to \&amp;lt;foo&gt;!", and I always encountered the second. After Hacker School, I've become much more aware and appreciative of such differences.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As soon as I was pointed towards a piece of the production code to try to improve, the whole team quickly gave me ownership - bug reports, questions, and hallway conversations came directly to me. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It didn't matter that my technical suggestions came from an intern - if they were good and I could back them up, they got implemented (and people were generous with credit for ideas!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;People consistently made a point of pointing out not only what needed to be fixed, but also what had been improved. After relatively minor fixes to some code, I got comments from the testers, my boss, my boss's boss, and my boss's boss's boss. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I found it particularly telling how well people reacted to my committing code that introduced faulty behavior during crunch time. My boss's boss was very matter-of-fact when he emailed me about it. The general tone of our discussion was: "Yeah, bugs are going to happen. What could have protected us from this one?", and my boss tested and committed the quick fix I sent in from home. There was an utter absence of any blame, shaming, or other pressure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Company-wide policies:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;While they wouldn't tell me any details about what I'd be working on while interviewing, I at least knew who my boss would be and a rough idea of what his team was responsible for. Without knowing what I'd be working on, I wouldn't have been interested. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On day 1, I had access to just about the entire company's codebase. This practically screams "we trust you." I've had friends in internships where they weren't ever allowed to see the main codebase - they were put in their own sandbox, and their mentors were responsible for merging in any changes. From now on, I'll be asking about this, and a case like the 2nd company would be an absolute deal-breaker.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;They paid competitively. Not that I even looked at this when considering internships, but it seemed correlated with how the company regards interns. And, you can bet that it's one of the first things I mention to other students who ask about the lower-paying internship I had: "The people were nice, but you should know that Company B only paid 1/2 of what Company A did. So, if the projects are equally interesting to you, you can do better!"&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I think that most of my points boil down to working with genuinely nice people, who made it clear that they respected and valued my contributions. Within the general priorities set out by my boss, I had a lot of autonomy, and at no point did I feel like my role or responsibilities were limited by being just an intern. In writing out this list, it also struck me how many of these were things a mentor doesn't have direct control over - most were at the team or even project level.&lt;/p&gt;</summary></entry><entry><title>Would I do Hacker School Again?</title><link href="/blog/2014/10/19/would-i-do-hacker-school-again/" rel="alternate"></link><updated>2014-10-19T03:09:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2014-10-19:blog/2014/10/19/would-i-do-hacker-school-again/</id><summary type="html">&lt;p&gt;Towards the end of our interview for the Hacker School study, &lt;a href="http://blog.leahhanson.us/"&gt;Leah&lt;/a&gt; asked me an interesting question: &lt;em&gt;Would you want to do Hacker School again?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And, my answer is: &lt;em&gt;I loved it, but no, not right now. Programming is no longer the thing I struggle most with.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;When I applied to Hacker School, my driving insecurity was that I wasn't a good enough programmer. I'd been in academia my whole life, and had struggled with producing code that would implement the algorithms I'd designed. As a graduate student in robotics, I put a lot of effort into fixing this (to the almost-derision of some professors, who saw programming as beside the point) because I didn't want my programming skills to be the thing holding me back as a roboticist. By the time I took time off and headed to Hacker School, implementation had stopped being so painful, but I still had never had a real job or worked with "real" programmers - only other academics, even if on admittedly-cool projects. I'd almost never had somebody look at my code and offer feedback.&lt;/p&gt;
+&lt;p&gt;So - Hacker School was a great fit for my goals at that point in life.&lt;/p&gt;
+&lt;p&gt;What did I get out of it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An awesome social atmosphere, very different from what I'd been used to. There was another student there who taught me a lot. She was quiet, and I had to give her space to talk because she would never take it. But, given the space, she turned out to be incredibly enthusiastic, intelligent and motivated. How many other awesome people have I missed, simply because I never gave them this space? This environment was very different from the louder and more aggressive places I'd learned to code. I've discovered that I prefer it that way.&lt;/li&gt;
+&lt;li&gt;More confidence (reinforced by my subsequent internships) to just jump in and read the source code when something doesn't work as expected. I think that my tiny bit of work on byterun with &lt;a href="http://akaptur.github.io/"&gt;Allison&lt;/a&gt; was a turning point for that.&lt;/li&gt;
+&lt;li&gt;A better understanding of my own motivations. Somehow, simply reframing the thought from "What &lt;em&gt;should&lt;/em&gt; I do today?" to "What do I &lt;em&gt;most want&lt;/em&gt; to work on?" made me incredibly productive. As a graduate student, I have enough freedom to put this into practice!&lt;/li&gt;
+&lt;li&gt;A small glimpse as to how computers actually work. I'd been insecure about my knowledge of their internals, but worked through &lt;a href="/blog/2014/09/04/nand2tetris/"&gt;NAND2Tetris&lt;/a&gt; with a friend. Now I at least have a framework for asking more detailed questions, and wound up having some great discussions about compilers that would have been absolutely over my head before doing this course.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Between Hacker School and a few awesome internships/jobs, I am more secure in my implementation skills. This has allowed me to discover new areas that I want to learn more about. My driving insecurities now include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistics. I want to feel better about quantifying errors on the data products I produce, and be able to rigorously interpret them.&lt;/li&gt;
+&lt;li&gt;Ice-penetrating radar. I'm not directly working with it, but the data I'm working on will be compared with radar data products. I don't yet understand the nitty-gritty of the signal processing involved well enough to understand its limitations.&lt;/li&gt;
+&lt;li&gt;How to effectively work as part of a team, with legacy code and very ambitious deadlines. What's worth dealing with vs. fixing (as a technical AND political decision)? Given high-level goals, how should we organize our efforts as a team to get there step-by-step?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My current position as both a roboticist and a scientist allows me to improve in these areas, and I couldn't be more excited.&lt;/p&gt;</summary></entry><entry><title>NAND2Tetris</title><link href="/blog/2014/09/04/nand2tetris/" rel="alternate"></link><updated>2014-09-04T23:00:00-05:00</updated><author><name>Laura Lindzey</name></author><id>tag:,2014-09-04:blog/2014/09/04/nand2tetris/</id><summary type="html">&lt;p&gt;My most sustained project at Hacker School was working through NAND2tetris. I finished the whole course, with the exception of chapter 9, because I figured I didn’t need to write a game in Jack when I’d have to write an OS in it later. After seeing a current student ask for peoples’ experiences with the course, I realized that I had more to say than could fit easily in the HS chat program.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Why’d I do it?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to understand computers at a deeper level, and was insecure about being a roboticist yet not understanding how they work. I have programmed in C, but that’s as low-level as I’d previously gone. I’ve heard a lot of people whom I respect say that their compilers course is where they learned the most. However, when I was an undergrad, I skipped that one (along with Operating Systems) because I wasn’t actually a CS major and only audited the courses that sounded fun, like Algorithms and Decidability/Tractability.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;How’d I do it?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Matt Davis and I worked through NAND2Tetris in our batch. We didn’t really work together, but did help get each other unstuck (especially at the start - their hardware emulator had a few quirks) and tried to stay roughly on the same timeline. I found it valuable to have somebody else to feel accountable to for finishing a chapter =) It was also useful to try to explain the concepts to each other, because that’s how I learn.&lt;/p&gt;
+&lt;p&gt;I think ~10 hrs/week is a reasonable amount of time to spend on it, and probably matches with what I averaged. (I skipped the video lectures and just read the book + used the slides for reference.) It’s also not something you have to &lt;em&gt;finish&lt;/em&gt;. Even if you only get through the first few chapters, well, you’ve learned about how computers work down at the hardware level.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Was it worth it?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Of everything I did at Hacker School, I got the most out of this book.&lt;/p&gt;
+&lt;p&gt;I have a new appreciation for how interesting computers are … previously, I’d mostly viewed hardware (and compilers, and programming languages … really, anything other than higher-level robotics algorithms) as things that I’d prefer to learn as little about as possible.&lt;/p&gt;
+&lt;p&gt;I also feel like I have enough of an overview of how computers work at all levels to ask questions about what I don’t understand. For example, it opened the door for me to have some great conversations about compilers, while before HS I had a very fuzzy picture of what they even do. The simplicity of the system you implement means that it is very easy to come up with ways to extend the platform or design a new one. It could be interesting to try to move some more of the math into the hardware, or add features to the language.&lt;/p&gt;
+&lt;p&gt;NAND2tetris is very much a guided tour, meant for an undergrad-level class. It aims to be a broad survey that’ll let the student figure out where they’re interested studying in more depth. The system you build is very carefully designed to be as simple as possible while still being a capable computer. There is very little design involved - the homeworks were more about understanding the provided design (or following the signposts) and implementing it.&lt;/p&gt;
+&lt;p&gt;I worry that they may provide too much guidance, and that people can work through the assignments without really grokking them. This was especially true for the bytecode translator, which is possible to implement correctly without understanding why the features were needed. I wrote the code for this, but still had trouble remembering how to use the bytecode when I got to the compiler chapter. I often tried to start the projects without reading the final section in the relevant chapter (it always focused on the implementation, rather than the theory.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Who would I recommend it to?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think that the only pre-req for this course is an introductory programming course or two. At least, you need to program well enough that understanding the compiler’s operation is the tricky bit, rather than the actual implementation. So, if you were accepted to Hacker School the book probably won’t be above your level, but I did notice a dramatic difference in how much time different people needed for the problem sets based on how experienced we were with programming in general.&lt;/p&gt;
+&lt;p&gt;If you’ve already taken multiple classes covering microcontrollers/compilers/programming languages, it may be too basic for you (but might also be fun for tying everything together - I’d love to hear from somebody reading it from that perspective!)&lt;/p&gt;</summary></entry></feed>
