@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family:"Roboto", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   /*  font-family: 'Slabo 13px', serif; */
   font-size: 18px;
   font-weight: 300;
@@ -173,7 +173,7 @@ header h1 {
 /* This class is used for the subtitle */
 header .tagline{
   margin-top:15px;
-  font-family:"HelveticaNeue-UltraLight","Helvetica Neue UltraLight","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family:"Roboto", "HelveticaNeue-UltraLight","Helvetica Neue UltraLight","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   font-weight:300;
   font-size:32px
 }
